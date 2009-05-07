@@ -1,0 +1,1 @@
+zip c:\dia_extra_src_msvc.zip C:\GTK\bin\diadev.bat C:\GTK\bin\zip_dia_extra_src_msvc.bat c:\gtk\glib\build\win32\make.msc c:\gtk\glib\build\win32\module.defs c:\gtk\glib\msvc_recommended_pragmas.h
