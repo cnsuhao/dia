@@ -1,4 +1,14 @@
 @echo off
+
+if "%1" == "msvc6" goto msvc6
+
+rem WDK 7
+set INCLUDE=%SDK_INC_PATH%;%SDK_INC_PATH%\..\crt
+set LIB=%SDK_LIB_DEST%\i386\;%SDK_LIB_DEST%\..\crt\i386;c:\gtk\lib
+
+goto finish
+
+:msvc6
 rem
 rem Root of Visual Developer Studio Common files.
 set VSCommonDir=C:\PROGRA~2\MICROS~1\Common
@@ -31,3 +41,4 @@ set LIB=%MSVCDir%\LIB;%MSVCDir%\MFC\LIB;%LIB%;c:\gtk\lib
 set VcOsDir=
 set VSCommonDir=
 
+:finish
