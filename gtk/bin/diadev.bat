@@ -3,7 +3,7 @@
 if "%1" == "msvc6" goto msvc6
 
 rem WDK 7
-set INCLUDE=%SDK_INC_PATH%;%SDK_INC_PATH%\..\crt
+set INCLUDE=%SDK_INC_PATH%;%SDK_INC_PATH%\..\crt;%SDK_INC_PATH%\crt\stl60
 set LIB=%SDK_LIB_DEST%\i386\;%SDK_LIB_DEST%\..\crt\i386;c:\gtk\lib
 
 goto finish
