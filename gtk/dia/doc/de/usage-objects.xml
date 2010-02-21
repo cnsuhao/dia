@@ -1,0 +1,1176 @@
+<chapter label="4" id="objects-chapter">
+  <title>Objekte und der Werkzeugkasten</title>
+  <para>
+    Ein Diagramm in <application>Dia</application> besteht aus einer Menge an
+    Objekten. Objekte sind vor- oder benutzerdefinierte Symbole. Der 
+    Werkzeugkasten erlaubt es, die gewünschten Objekte zu wählen und Voreinstellungen
+    der Objekteigenschaften vorzunehmen
+  </para>
+  <sect1 id="toolbox-overview">
+    <title>Überblick über Dias Werkzeugkasten</title>
+    <figure>
+      <title>Dias Werkzeugkasten</title>
+      <screenshot>
+        <screeninfo>Dias Werkzeugkasten</screeninfo>
+        <graphic format="PNG" fileref="graphics/toolbox" srccredit="Mark Dexter" />
+      </screenshot>
+    </figure>
+    <para>
+      Wenn <application>Dia</application> ausgeführt wird, befindet sich der
+      Werkzeugkasten auf der linken Seite des Fensters (Es gibt auch die
+      Möglichkeit, Werkzeugkasten und Zeichenfläche in getrennten Fenstern 
+      darzustellen). Der Werkzeugkasten enthält Objektpaletten und andere
+      Kontrollelemente. Der Werkzeugkasten ist in drei Regionen unterteilt.
+      Die obere Region enthölt 16 Knöpfe, mit den ersten vier lässt sich das
+      Diagramm manipulieren, die folgenden 12 sind grundlegende Zeichenobjekte.
+    </para>
+    <para>
+      Der mittlere Teil des Werkzeugkastens enthölt den gewählten Objektbogen.
+      Mit ihm lassen sich Objekte aus einer Vielzahl von mitgelieferten 
+      Objektbögen wählen, beispielsweise Flussdiagramm, Netzwerk, UML, uvm.
+    </para>
+    <para>
+      Der untere Teil des Werkzeugkastens enthält Kontrollelemente um 
+      Einstellungen für Objekte zu treffen, die zur Zeichenfläche hinzugefügt
+      werden. Diese Einstellungen beinhalten Vordergrundfarbe, Hintergrundfarbe
+      und Linienstärke. Drei Kontrollelemente erlauben es, Linieneigenschaften zu
+      definieren: Anfangspfeil, Linienart und Endpfeil.
+    </para>
+    <sect2 id="toolbox-modify">
+      <title>Werkzeug "Objekte verändern"</title>
+      <figure>
+        <title>Werkzeug "Objekte verändern"</title>
+        <screenshot>
+          <screeninfo>Werkzeug "Objekte verändern"</screeninfo>
+          <graphic format="PNG" fileref="graphics/toolbox-modify" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure> 
+      <para>
+        Das Werkzeug "Objekte verändern" ist vorausgewählt, wenn Dia gestartet
+        wird. Dieses Werkzeug erlaubt es, ein oder mehrere Objekte auf der
+        Zeichenfläche auszuwählen. Nachdem ein Objekt der Zeichenfläche
+        hinzugefügt wurde, wird das Werkzeug "Objekte verändern" automatisch
+        ausgewählt. Dadurch ist es einfach, ein Objekt zur Zeichenfläche
+        hinzuzufügen und dann mit der Arbeit fortzufahren, ohne das Werkzeug
+        "Objekte verändern" neu auszuwählen.
+      </para>
+      <tip>
+        <para>
+          Mit der Leerzeichentaste kann zwischen einem Objektwerkzeug und dem
+          Werkzeug "Objekt verändern" gewechselt werden. Falls Sie beispielsweise
+          dem Diagramm mehrere Rechteck-Objekte hinzufügen wollen: Klicken Sie
+          zuerst auf das Rechteck-Symbol und dann auf die Zeichenfläche, um das
+          Rechteck einzufügen. Dadurch wird das Werkzeug "Objekt verändern"
+          automatisch ausgewählt. Um das Rechteck-Werkzeug wieder auszuwählen,
+          drücken Sie die Leerzeichentaste.Sie können jetzt wieder in der
+          Zeichenfläche klicken, um ein zweites Recheck hinzuzufügen. Fahren Sie
+          fort, die Leerzeichentaste zu drücken und zu klicken, um die gewünschte
+          Anzahl an Rechtecken hinzuzufügen.
+        </para>
+      </tip>
+      <tip>
+        <para>
+          Sie können <application>Dia</application> anpassen und die automatische
+          Auswahl des Werkzeuges "Objekt verändern" deaktivieren. Unter
+          <link linkend="user-interface">Anpassung / Benutzerschnittstelle</link> 
+          finden Sie weitere Informationen. 
+        </para>
+      </tip>
+    </sect2>
+    <sect2 id="toolbox-edit-text">
+      <title>Textbearbeitung-Werkzeug</title>
+      <para>
+        Bevor das Textbearbeitung-Werkzeug genutzt werden kann, muss zunächst
+        ein entsprechendes Objekt, beispielsweise ein Textobjekt, zur
+        Zeichenfläche hinzugefügt werden. Das Textbearbeitung-Werkzeug kann auch
+        durch das Drücken der Taste "F2" aktiviert werden und bleibt aktiv,
+        bis die Taste "Esc" gedrückt wird. 
+      </para>
+    </sect2>
+    <sect2 id="toolbox-magnify">
+      <title>Vergrößern-Werkzeug</title>
+      <figure>
+        <title>Vergrößern-Werkzeug</title>
+        <screenshot>
+          <screeninfo>Vergrößern-Werkzeug</screeninfo>
+          <graphic format="PNG" fileref="graphics/toolbox-magnify" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure>
+      <para>
+        Das Vergrößern-Werkzeug ist eine Möglichkeit heran- und wegzuzoomen.
+        Unter   
+        <link linkend="zooming">Die Zeichenfläche / Zoomen</link> finden Sie
+        weitere Informationen. Das Vergrößern-Werkzeug bleibt aktiv, bis Sie
+        ein anderes Werkzeug aktivieren.
+      </para>
+    </sect2>
+    <sect2 id="toolbox-scroll">
+      <title>Werkzeug "Diagramminhalt verschieben"</title>
+      <figure>
+        <title>Werkzeug "Diagramminhalt verschieben"</title>
+        <screenshot>
+          <screeninfo>Werkzeug "Diagramminhalt verschieben"</screeninfo>
+          <graphic format="PNG" fileref="graphics/toolbox-scroll" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure>
+      <para>
+        Das Werkzeug "Diagramminhalt verschieben" wird genutzt, um sich im
+        Diagramm zu bewegen. Wenn dieses Werkzeug aktiviert ist, wird der 
+        Mauszeiger zu einer Hand und durch Klicken und Ziehen kann man das 
+        Diagramm in der Zeichenfläche verschieben. Das Werkzeug "Diagramminhalt
+        verschieben" bleibt aktiv, bis ein anderes Werkzeug ausgewählt wird.
+        Durch das drücken der Taste "S" lässt sich das Werkzeug auswählen.
+      </para>
+    </sect2>
+    <sect2 id="toolbox-basic">
+      <title>Grundlegende Objekte</title>
+      <para>
+        Die auf "Objekt verändern", Textbearbeitung, Vergrößern und "Diagramminhalt
+        verschieben" folgenden 12 Knöpfe erlauben es, grundlegende Objekte auf
+        der Zeichenfläche zu platzieren. Unter  
+        <link linkend="basic-objects-introduction">Einführung in grundlegende 
+        Objekte</link> finden Sie weiterführende Informationen dazu.
+      </para>
+    </sect2>
+    <sect2 id="toolbox-special">
+      <title>Spezielle Objekte</title>
+      <figure>
+        <title>Spezielle Objekte</title>
+        <screenshot>
+          <screeninfo>Spezielle Objekte</screeninfo>
+          <graphic format="PNG" fileref="graphics/toolbox-special" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure>
+      <para>
+        Im Werkzeugkasten befindet sich unterhalb der grundlegenden Objekte eine
+        Auswahlliste, die es erlaubt Objektbögen mit speziellen Zeichenobjekten 
+        zu wählen. Wie in der obenstehenden Abbildung ersichtlich, wird 
+        <application>Dia</application> mit einer großen Anzahl an speziellen 
+        Objekten ausgeliefert. Um ein spezielles Objekt zu nutzen, wählen Sie
+        zunächst den gewünschten Objektbogen in der Auswahlliste. Dann klicken
+        Sie auf das gewäschte Objekt und anschliessend auf die Zeichenfläche,
+        um das Objekt einzufügen. Unter
+        <link linkend="special-object-categories">Kategorien von speziellen 
+        Objekten</link> finden Sie Informationen darüber, welche speziellen
+        Objekte verfügbar sind.
+      </para>
+    </sect2>
+    <sect2 id="toolbox-lower">
+      <title>Vorausgewählte Farbe, Strichstärke und Linienart</title>
+      <figure>
+        <title>Vorausgewählte Farbe, Strichstärke und Linienart</title>
+        <screenshot>
+          <screeninfo>Vorausgewählte Farbe, Strichstärke und Linienart</screeninfo>
+          <graphic format="PNG" fileref="graphics/toolbox-lower" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure>
+      <para>
+        Unter der Palette von speziellen Objekten befinden sich Elemente, um
+        Vorder- und Hintergrundfarbe, Linienstärke und -art vorzubelegen.
+        Diese Elemente definieren Voreinstellungen, die genutzt werden, wenn neue
+        Objekte zur Zeichenfläche hinzugefügt werden. Sie beeinflussen nicht die
+        Eigenschaften von bereits auf der Zeichenfläche vorhandenen Objekten. 
+        Die getroffenen Einstellungen bleiben für alle zukünftigen 
+        <application>Dia</application>-Sitzungen aktiv - bis sie geändert werden.
+      </para>
+      <para>
+        Die beiden Rechtecke links erlauben es, Vorder- und Hintergrundfarben
+        für alle zur Zeichenfläche hinzugefügten Objekte vorauszuwählen. Wenn
+        Sie auf das obere Rechteck klicken (das schware in der Abbildung oben),
+        können Sie die Vordergrundfarbe für alle neuen Objekte auswählen. Durch
+        einen Klick auf untere Rechteck können eine Hintergrundfarbe 
+        vorauswählen. Unter <link linkend="colors"> 
+        Objekte / Farben </link> finden Sie weitere Informationen zur Farbauswahl.
+      </para>
+      <tip>
+        <figure>
+          <title>"Farben zurücksetzen"-Knopf</title>
+          <screenshot>
+            <screeninfo>"Farben zurücksetzen"-Knopf</screeninfo>
+            <graphic format="PNG" fileref="graphics/default-colors" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>
+        <para>
+          Um die Farben auf Schwarz als Vordergrundfarbe und Weiss als
+          Hintergrundfarbe zurückzusetzen, klicken Sie auf den kleinen Knopf links
+          unter der Farbauswahl.
+        </para>
+      </tip>
+      <tip>
+        <figure>
+          <title>"Farben wechseln"-Knopf</title>
+          <screenshot>
+            <screeninfo>"Farben wechseln"-Knopf</screeninfo>
+            <graphic format="PNG" fileref="graphics/reverse-colors" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>
+        <para>
+          Um Vorder- und Hintergrundfarbe zu tauschen, klicken Sie auf den 
+          kleinen Pfeil rechts über den beiden Rechtecken.
+        </para>
+      </tip>
+      <figure>
+        <title>Vorausgewählte Strichstärke</title>
+        <screenshot>
+          <screeninfo>Vorausgewählte Strichstäre</screeninfo>
+          <graphic format="PNG" fileref="graphics/line-width" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure>
+      <para>
+        Rechts der beiden Rechtecke befinden sich fünf Linien unterschiedlicher
+        Stärke. Um eine Linienstärke vorauszuwählen, klicken Sie einfach darauf.
+        Ein gestricheltes Rechteck zeigt, welche Strichstärke momentan vorgewählt
+        ist. 
+      </para>
+      <figure>
+        <title>Pfeil und Linienart</title>
+        <screenshot>
+          <screeninfo>Pfeil und Linienart</screeninfo>
+          <graphic format="PNG" fileref="graphics/arrow-style" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure>  
+      <para>
+        Am Fuße des Werkzeugkastens befinden sich drei Knöpfe. Der linke Knopf
+        erlaubt die Vorauswahl der Pfeilform für den Linienanfang. In der
+        Abbildung ist die Vorauswahl "Kein Pfeil". Der rechte Knopf erlaubt die
+        Vorauswahl der Pfeilform für das Linienende. Da nur Linien Richtung und 
+        Pfeile aufweisen, beeinflussen diese Knöpfe nur Linien und keine anderen 
+        Objekte. Der mittlere Knopf erlaubt die Vorauswahl der Linienart 
+        (durchgezogen, gestrichelt, usw.).  
+      </para>
+      <note>
+        <para>
+          Die Vorauswahl der Strichstärke und Linienart beeinflusst alle
+          grundlegenden Objekte und einige spezielle Objekte (beispielsweise
+          die des Objektbogens "Flussdiagramm"). Beachten Sie aber, dass
+          einige spezielle Objekte (beispielsweise die des Objektbogens "AADL")
+          feste Strichstärken aufweisen und von diesen Einstellungen nicht
+          beeinflusst werden. 
+        </para>
+      </note>
+
+    </sect2>
+  </sect1>
+
+
+  <sect1 id="using-objects">
+    <title>Objekte benutzen</title>
+
+    <sect2 id="adding-objects">
+      <title>Objekte hinzufügen</title>
+      <para>
+        Objekte können zur Zeichenfläche hinzugefügt werden, indem zunächst auf 
+        den entsprechenden Objektsymbolknopf geklickt wird und anschliessend
+        auf den gewünschten Einfügepunkt in der Zeichenfläche. Das gewählte
+        Objekt wird daraufhin an diesem Punkt eingefügt.
+      </para>
+      <tip>
+        <para>
+          Sie können schnell mehrere Objekte des gleichen Typs zum Diagramm
+          hinzufügen, indem Sie mit der Leertaste zwischen dem Werkzeug 
+          "Objekt verändern" und dem gewünschten Objekt wechseln.
+          Falls Sie beispielsweise
+          dem Diagramm mehrere Rechteck-Objekte hinzufügen wollen: Klicken Sie
+          zuerst auf das Rechteck-Symbol und dann auf die Zeichenfläche, um das
+          Rechteck einzufügen. Dadurch wird das Werkzeug "Objekt verändern"
+          automatisch ausgewählt. Um das Rechteck-Werkzeug wieder auszuwählen,
+          drücken Sie die Leerzeichentaste.Sie können jetzt wieder in der
+          Zeichenfläche klicken, um ein zweites Recheck hinzuzufügen. Fahren Sie
+          fort, die Leerzeichentaste zu drücken und zu klicken, um die gewünschte
+          Anzahl an Rechtecken hinzuzufügen.
+        </para> 
+      </tip>
+      <tip>
+        <para>
+          Falls Sie verschiedene Farben oder Linienarten für verschiedene
+          Objekte nutze, können Sie Zeit sparen, wenn Sie eine separate Datei mit
+          Beispielobjekte anlegen und daraus kopieren, um sie in das bearbeitete
+          Diagramm einzufügen. 
+        </para>
+      </tip>
+    </sect2>
+    <sect2 id="moving-objects">
+      <title>Objekte bewegen</title>
+      <para>
+        Wenn ein Objekt zur Zeichenfläche hinzugefügt wurde, wird es mit kleinen
+        grünen Quadraten (Handgriffen) entlang der Objektgrenze angezeigt.
+        <figure>
+          <title>Objekt-Handgriffe</title>
+          <screenshot>
+            <screeninfo>Das Liniensymbol</screeninfo>
+            <graphic format="PNG" fileref="graphics/line_icon" srccredit="Steffen Macke" />
+          </screenshot>
+        </figure>
+        Um ein Objekt zu bewegen, klicken Sie irgendwo in das Objekt und ziehen
+        Sie die Maus bei gedrückter Maustaste über die Zeichenfläche.
+        Um eine Linie zu bewegen, müssen Sie auf die Linie klicken. 
+      </para>
+      <tip>
+        <para>
+          Wenn Sie ein Objekt bewegen, achten Sie darauf, nicht auf einen der
+          Handgriffe zu klicken. Sonst werden Sie die Objektgröße ändern, statt
+          das Objekt zu bewegen.
+        </para>
+      </tip>
+    </sect2>
+    <sect2 id="resizing-objects">
+      <title>Objektgrößen ändern</title>
+      <para>
+        Handgriffe werden genutzt, um Objektgrößen zu ändern. Um ein Objekt zu 
+        vergrößern, klicken Sie einfach auf einen Handgriff und ziehen Sie ihn
+        fort vom Zentrum des Objektes, während Sie die Maustaste gedrückt halten.
+        Die Objektgröße wird sich verändern während Sie die Maus bewegen.
+        Falls ein Objekt ein festes Seitenverhältnis aufweist, wird eine Änderung
+        in einer Dimension die andere automatisch ändern. Falls ein Objekt kein
+        festes Seitenverhältnis aufweist, können Sie eine Dimension (beispielsweise
+        die Höhe) ändern, ohne die andere (beispielsweise die Breite) zu 
+        beeinflussen. Einige Objekte besitzen die Möglichkeit auszuwählen, ob
+        das Seitenverhältnis beibehalten werden soll.
+      </para>
+    </sect2>
+    <sect2 id="deleting-objects">
+      <title>Objekte löschen</title>
+      <para>
+        Um ein Objekt aus einem Diagramm zu löschen, wählen Sie das Werkzeug 
+        "Objekt verändern" und klicken Sie auf das Objekt in der Zeichenfläche.
+        Die Darstellung der grünen Handgriffe zeigt die Auswahl des Objektes an.
+        Drücken Sie die "Entf"-Taste oder wählen Sie
+        <menuchoice>
+          <guimenu>Bearbeiten</guimenu>
+          <guimenuitem>Löschen</guimenuitem>
+        </menuchoice> aus dem Menü.
+      </para>
+    </sect2>
+    <sect2 id="connecting-objects">
+      <title>Objekte mit Linien verbinden</title>
+      <para>
+        In vielen Diagrammen sind Objekte miteinander durch Linien verbunden.
+        Wenn ein Objekt nicht ausgewählt ist, wird eine Reihe von 
+        Verbindungspunkten an seinen Grenzen durch kleine "x"-Symbole dargestellt.
+        Es gibt auch einen Hauptverbindungspunkt in der Mitte des Objektes. Auch
+        Linien besitzen Verbindungspunkte, an denen andere Linien verbunden
+        werden können.
+      </para>
+      <para>
+        Linien besitzen Handgriffe an jedem Ende die benutzt werden, um die Linie
+        mit anderen Objekten zu verbinden. Diese Handgriffe sind grün, falls die
+        Linie nicht verbunden ist und rot falls die Linie verbunden ist.
+        Linien besitzen auch orange Handgriffe, welche genutzt werden, um den
+        Linienverlauf zu formen. Die Abbildung unten zeigt mehrere Linien mit
+        grünen Handgriffen an den unverbundenen Enden und roten Handgriffen
+        an den verbundenen Enden.
+        <figure>
+          <title>Linien-Handgriffe</title>
+          <screenshot>
+            <screeninfo>Linien-Handgriffe</screeninfo>
+            <graphic format="PNG" fileref="graphics/line-handles" srccredit=   "Mark Dexter" />
+          </screenshot>
+        </figure>
+      </para>
+
+      <para>
+        Um zwei Objekte mit einer Linie zu verbinden: 
+      </para>
+      <orderedlist>
+        <listitem>
+          <para>
+            Wählen Sie die gewünschte Linie (Linie, Zickzacklinie, usw) durch
+            einen Klick auf das Symbol im Werkzeugkasten.
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Sie können entweder auf die Zeichenfläche klicken, um die Linie
+            im Diagramm zu platzieren und dann den Anfangspunkt der Linie zum
+            gewünschten Verbindungspunkt des ersten Objektes zu ziehen.
+          </para>
+          <para>
+            Oder Sie sparen einen Schritt durch direkten Klick auf den gewünschten
+            Verbindungspunkt. In diesem Fall wird der Anfangspunkt der Linie 
+            bereits beim Einfügen mit dem gewählten Verbindungspunkt des ersten
+            Objektes verbunden.
+          </para>
+          <para>
+            In beiden Fällen wird der verbundene Handgriff am Anfangspunkt der
+            Linie in rot dargestellt.
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            Klicken Sie auf den grünen Handgriff am Endpunkt der Linie und ziehen Sie
+            ihn bei gedrückter Maustaste auf den gewünschten Verbindungspunk des 
+            zweiten Objektes. Sobald die Linie verbunden ist, wird das Objekt mit
+            einer roten Umrandung hervorgehoben, wie in untenstehender Abbildung.
+            <figure>
+              <title>Linie verbunden</title>
+              <screenshot>
+                <screeninfo>Linie verbunden</screeninfo>
+                <graphic format="PNG" fileref="graphics/line-connect" srccredit="Mark Dexter" />
+              </screenshot>
+            </figure>
+            An diesem Punkt sind die zwei Objekte verbunden. Falls Sie eines der
+            Objekte verschieben, wird die Linie sich verändern, um weiterhin 
+            beide Objekte zu verbinden. Falls Sie die Linie verschieben, wird
+            sie sich von beiden Objekten lösen. Falls Sie eine solche Verbindung
+            einmal irrtümlich lösen, können Sie dies durch die Tastenkombination 
+            Strg+Z oder durch die Auswahl von <menuchoice>
+              <guimenu>Bearbeiten</guimenu>
+              <guimenuitem>Rückgänging</guimenuitem>
+            </menuchoice> im Menü rückgängig machen. 
+          </para>
+        </listitem>
+      </orderedlist> 
+      <para>
+        At any time, you can disconnect or connect to a new point by clicking on the "from"
+        or "to" handle  and dragging it to a new location on the diagram.
+      </para>
+      <tip>
+        <para>
+          If you connect a line to a fixed point on a shape's perimeter, it will stay 
+          connected to this point when the object is moved. 
+          <figure>
+            <title>Fixed Connection Point</title>
+            <screenshot>
+              <screeninfo>Fixed Connection Point</screeninfo>
+              <graphic format="PNG" fileref="graphics/connect-fixed" srccredit="Mark Dexter" />
+            </screenshot>
+          </figure>   
+        </para>
+        <para>
+          If you connect a line to 
+          the middle of an object, when you move the object the displayed 
+          connection point moves automatically, so you don't need to change the 
+          connection point. 
+          <figure>
+            <title>Middle Connection Point</title>
+            <screenshot>
+              <screeninfo>Middle Connection Point</screeninfo>
+              <graphic format="PNG" fileref="graphics/connect-middle" srccredit="Mark Dexter" />
+            </screenshot>
+          </figure>
+        </para>
+        <para>
+          Note that, when a line is connected to the middle of an object, the line's
+          connection handle is still positioned on the perimeter of the object. So 
+          to move the line's connection point, drag on the line's handle (as opposed
+          to the middle of the object).
+        </para>
+      </tip>  
+      <tip>
+        <para>
+          If you connect a Line or Polyline object to the middle of a shape 
+          when you first place the 
+          line on the canvas, you need to be careful when connecting the "to" end 
+          of the line. Be sure to click on the line's handle and not on
+          the surrounding area within the shape. If you click on the surrounding area
+          inside the shape, you will select the shape and not the line's handle. If this 
+          happens, click outside the shape to deselect it and then carefully click
+          on the "x" in the middle of the object (not on the line's arrow). The 
+          handle will display, and you can drag it to the desired location. Note that 
+          the handle will display as red, because it is connected to the middle. Also
+          note that you need to drag it outside the shape before you can see the line.
+        </para>
+      </tip>
+      <para>
+        See <link linkend="line">Basic Objects / Line</link> for more information on
+        the different lines available. 
+      </para>
+    </sect2>
+    <sect2 id="entering-text">
+      <title>Entering Text</title>
+      <para>
+        Text can be entered by selecting the object and then typing the text. 
+        The font, size, alignment, and other formatting properties can be changed by 
+        double-clicking the object.
+      </para>
+      <para>
+        Here are some important tips regarding short-cut keys when entering text.
+      </para>
+      <figure>
+        <title>Edit Menu Text Commands</title>
+        <screenshot>
+          <screeninfo>Edit Menu Text Commands</screeninfo>
+          <graphic format="PNG" fileref="graphics/edit-text" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure>  
+      <tip>
+        <para>
+          The normal Copy / Cut / Paste keys (Ctrl+C, Ctrl+X, Ctrl+V) work on 
+          entire objects, not on text. The Edit menu contains the commands 
+          Copy Text, Cut Text (Shift+Ctrl+X), and Paste Text (Shift+Ctrl+V) 
+          to copy, cut, and paste just the text contents of an object. 
+          Note that when you paste text into an object, the text is 
+          formatted according to the <application>Dia</application> object properties, 
+          not the text source.
+        </para>
+      </tip>
+      <tip>
+        <para>
+          You cannot select a section of text inside an object with the mouse (this
+          moves the object). You can insert characters at the current cursor position 
+          just by typing. You can delete the character to the left of the mouse using 
+          Backspace. IMPORTANT: The Del key deletes the entire object, not the text 
+          to the right of the cursor. Use Shift+Del, Ctrl+Del, or Alt+Del to delete 
+          the text to the right of the cursor. (Use Ctrl+Z or 
+          <menuchoice>
+            <guimenu>Edit</guimenu>
+            <guimenuitem>Undo</guimenuitem>
+          </menuchoice>  if you delete 
+          an object by mistake.) To delete all of the text in an object, use the 
+          Cut (Shift+Ctrl+X). 
+        </para>
+      </tip>
+      <figure>
+        <title>Deleting Text</title>
+        <screenshot>
+          <screeninfo>Deleting Text</screeninfo>
+          <graphic format="PNG" fileref="graphics/delete-text" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure>  
+
+    </sect2>
+    <sect2 id="aligning-objects">
+      <title>Aligning Objects</title>
+      <para>
+        <application>Dia</application> provides several options to help 
+        arrange multiple objects without needing to move each object 
+        individually. These are available on the <menuchoice>
+          <guimenu>Objects</guimenu>
+          <guimenuitem>Align</guimenuitem>
+        </menuchoice> menu choice shown below.
+        <figure>
+          <title>Objects / Align Options</title>
+          <screenshot>
+            <screeninfo>Objects / Align Options</screeninfo>
+            <graphic format="PNG" fileref="graphics/align-menu" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>     
+      </para>
+      <sect3 id="how-to-align">
+        <title>How To Align Objects</title>
+        <para>
+          To align objects, first select the objects to align (see  
+          <link linkend="selecting-chapter">Selecting Objects</link>
+          ) and then execute one of the align commands, using either the menu 
+          or the shortcut key. The order in which objects are selected does not 
+          matter. 
+        </para>
+      </sect3>
+      <sect3 id="align-left-center-right">
+        <title>Left, Center, and Right Align</title>
+        <para>
+          The align left, right, and center are used to align objects arranged
+          vertically on the canvas. The align left aligns the selected objects 
+          to the left edge of the left-most object. Similarly, the align right 
+          aligns the selected objects to the right edge of the right-most object. 
+          Align center aligns the center of each object to the mid-point between the
+          extreme left and extreme right edge of all selected objects. Examples of 
+          align left, center, and right are shown below.  
+        </para>
+        <figure>
+          <title>Before Left, Center, Right Align</title>
+          <screenshot>
+            <screeninfo>Before Left, Center, Right Align</screeninfo>
+            <graphic format="PNG" fileref="graphics/before-left" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>   
+        <figure>
+          <title>Align Left</title>
+          <screenshot>
+            <screeninfo>Align Left</screeninfo>
+            <graphic format="PNG" fileref="graphics/align-left" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>   
+        <figure>
+          <title>Align Center</title>
+          <screenshot>
+            <screeninfo>Align Center</screeninfo>
+            <graphic format="PNG" fileref="graphics/align-center" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>   
+        <figure>
+          <title>Align Right</title>
+          <screenshot>
+            <screeninfo>Align Right</screeninfo>
+            <graphic format="PNG" fileref="graphics/align-right" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>
+      </sect3>   
+      <sect3 id="align-top-middle-bottom">
+        <title>Top, Middle, and Bottom Align</title>
+        <para>
+          The align top, middle, and bottom are used to align objects arranged
+          horizontally on the canvas. The align top aligns the selected objects 
+          to the top edge of the upper-most object. Similarly, the align bottom 
+          aligns the selected objects to the bottom edge of the lowest object. 
+          Align middle aligns the middle of each object to the mid-point between the
+          extreme top and extreme bottom edge of all selected objects. Examples of 
+          align top, middle, and bottom are shown below.  
+        </para>
+        <figure>
+          <title>Before Top, Middle, Bottom Align</title>
+          <screenshot>
+            <screeninfo>Before Top, Middle, Bottom Align</screeninfo>
+            <graphic format="PNG" fileref="graphics/before-top" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>   
+        <figure>
+          <title>Align Top</title>
+          <screenshot>
+            <screeninfo>Align Top</screeninfo>
+            <graphic format="PNG" fileref="graphics/align-top" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure> 
+        <figure>
+          <title>Align Middle</title>
+          <screenshot>
+            <screeninfo>Align Middle</screeninfo>
+            <graphic format="PNG" fileref="graphics/align-middle" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure> 
+        <figure>
+          <title>Align Bottom</title>
+          <screenshot>
+            <screeninfo>Align Bottom</screeninfo>
+            <graphic format="PNG" fileref="graphics/align-bottom" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>   
+      </sect3>
+      <sect3 id="align-spread-out">
+        <title>Spread Out Horizontally and Vertically</title>
+        <para>
+          The Align / Spread Out commands can be used to create uniform spacing
+          for objects arranged either horizontally or vertically. Examples of these 
+          commands are shown below.
+        </para>
+        <figure>
+          <title>Before Spread Out Horizontally</title>
+          <screenshot>
+            <screeninfo>Before Spread Out Horizontally</screeninfo>
+            <graphic format="PNG" fileref="graphics/before-hor-spread" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>   
+        <figure>
+          <title>After Spread Out Horizontally</title>
+          <screenshot>
+            <screeninfo>After Spread Out Horizontally</screeninfo>
+            <graphic format="PNG" fileref="graphics/after-hor-spread" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>      
+        <figure>
+          <title>Before Spread Out Vertically</title>
+          <screenshot>
+            <screeninfo>Before Spread Out Vertically</screeninfo>
+            <graphic format="PNG" fileref="graphics/before-vert-spread" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>   
+        <figure>
+          <title>After Spread Out Vertically</title>
+          <screenshot>
+            <screeninfo>After Spread Out Vertically</screeninfo>
+            <graphic format="PNG" fileref="graphics/after-vert-spread" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>   
+      </sect3>
+
+      <sect3 id="align-adjacent-stacked">
+        <title>Align Adjacent or Stacked</title>
+        <para>
+          The Align / Adjacent command is used to place objects next to each other with no 
+          horizontal space in between. The Align / Stacked is used to place objects directly
+          on top of each other, with no vertical space in between. Examples of these 
+          commands are shown below.
+        </para>
+        <figure>
+          <title>Align / Adjacent</title>
+          <screenshot>
+            <screeninfo>Align / Adjacent</screeninfo>
+            <graphic format="PNG" fileref="graphics/adjacent" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>   
+        <figure>
+          <title>Align / Stacked</title>
+          <screenshot>
+            <screeninfo>Align / Stacked</screeninfo>
+            <graphic format="PNG" fileref="graphics/stacked" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>      
+      </sect3>
+    </sect2>
+    <sect2 id="grouping-objects">
+      <title>Grouping Objects</title>
+      <para>
+        Grouping allows you to treat several objects as a single entity.  
+        A group enables you to 
+        fix the position of the member objects in relation to each other and to 
+        change the properties of all member objects at one time. 
+        To create an object group, select two or more objects and then 
+        select   <menuchoice>
+          <guimenu>Objects</guimenu>
+          <guimenuitem>Group</guimenuitem>
+        </menuchoice>. 
+      </para>
+      <figure>
+        <title>Before and After Group Create</title>
+        <screenshot>
+          <screeninfo>Before and After Group Create</screeninfo>
+          <graphic format="PNG" fileref="graphics/object-group" srccredit= "Mark Dexter" />
+        </screenshot>
+      </figure>
+      <para>
+        When the group is created or subsequently selected, a set of black handles 
+        displays around the outside of the group, as shown in the figure 
+        above. At this point, you can
+        move the  entire group just like you 
+        would move a single object. Just click and drag on any of the objects 
+        in the group. 
+      </para>
+      <para>
+        You can also change the properties of all objects in a group by double-clicking
+        or using the right-click context menu. 
+        See <link linkend="changing-group-properties">Changing Properties for a 
+          Group of Objects</link> for more information.
+      </para>
+    </sect2>
+
+  </sect1>
+  <sect1 id="object-properties">
+    <title>Object Properties</title>
+    <para>
+      The properties of an object control it's appearance. Properties include text 
+      font and appearance; line width, style, and color; transparency (i.e., draw background
+      yes or no);  foreground and background 
+      color; and any other settings that control the way an object is displayed. 
+      Different types of objects have different sets of properties.
+    </para>
+    <para>
+      The specific properties of an object are determined in two different ways. 
+      The default settings in force at the time the object is added 
+      to the canvas determine the object's initial properties. Once objects are 
+      placed onto the diagram, their properties may be set using the Properties 
+      dialog box for the object or for a group of objects.
+    </para>
+    <sect2 id="default-properties">
+      <title>Sources of Default Properties</title>
+      <para>
+        An object's default properties are set in two places within Dia. First,
+        as discussed above in <link linkend="toolbox-lower">
+          Default Color, Line Width, and Line Style</link>, default values for 
+        the foreground and background
+        color; the line width; and the line style of all basic objects and some 
+        special objects
+        are determined by settings on the Toolbox. For basic lines, 
+        the default beginning
+        and ending arrow styles are also determined by the Toolbox settings.  
+      </para>
+      <para>
+        The rest of an object's default properties can be set using the Defaults: 
+        Properties dialog box for each object. This is opened by double-clicking
+        on the object's icon on the Toolbox. Since the available properties for each 
+        type of object can be different, each object's default properties dialog
+        is different. Below are examples of the default properties dialog for
+        the basic Text and Box objects.
+      </para>
+      <figure>
+        <title>Default Text Properties</title>
+        <screenshot>
+          <screeninfo>Default Text Properties</screeninfo>
+          <graphic format="PNG" fileref="graphics/defaults-text" srccredit= "Mark Dexter" />
+        </screenshot>
+      </figure>
+      <figure>
+        <title>Default Box Properties</title>
+        <screenshot>
+          <screeninfo>Default Box Properties</screeninfo>
+          <graphic format="PNG" fileref="graphics/defaults-box" srccredit= "Mark Dexter" />
+        </screenshot>
+      </figure>          
+      <para>
+        For objects that include text, the dialog will normally include the
+        text alignment, the font name, the font modifier (normal, bold, etc.), and
+        the font size (in centimeters, not points). This makes it possible to set
+        defaults for text display for any object that can contain text.
+      </para>
+    </sect2>
+    <sect2 id="changing-properties">
+      <title>Changing Object Properties</title>
+      <para>
+        Once objects are placed onto the diagram, their properties can be 
+        changed either individually or as a member of a group.
+      </para>
+      <sect3 id="changing-individual-properties">
+        <title>Changing Properties for One Object</title>
+        <para>
+          To change the
+          properties of an individual object, either double-click on the object 
+          or select the object, right-click to display the context menu, and select
+          the Properties option. In either case, the Properties dialog for the selected
+          object will display, allowing you to change any of the object's properties.
+        </para>
+        <note>
+          <para>
+            If multiple objects are selected, you can still change the properties of one
+            of the selected objects by double-clicking that object. This will only change
+            the properties of the one object you double-clicked.
+          </para>
+        </note>
+      </sect3>
+      <sect3 id="changing-group-properties">
+        <title>Changing Properties for a Group of Objects</title>
+        <para>
+          You can change the properties of a group of objects at one time by selecting
+          two or more objects and then selecting 
+          <menuchoice>
+            <guimenu>
+              Objects
+            </guimenu>
+            <guimenuitem>
+              Group
+            </guimenuitem>
+          </menuchoice>
+          to create a group. Once the group is created, you can set properties for all
+          objects in the group. To do this, either double-click on the group or right-click
+          to display the context menu and select the Properties option. 
+          The Properties: Group dialog will display. Only properties that pertain
+          to all of the selected objects will display in the dialog. If your group
+          contains only objects of one type, then all of the properties for that object
+          type will display. 
+        </para>
+        <para>
+          For example, if a group contains all basic Line objects, 
+          all of the Line properties will display in the Properties: Group dialog. 
+          If a group contains a basic Line 
+          and a basic Box, the Properties: Group dialog will only show Line width, 
+          Line color, and Line style, since these are the properties these objects
+          have in common. 
+        </para>
+        <para>
+          Changing properties for a group is a powerful feature of 
+          <application>Dia</application>. For example, say you have a large diagram 
+          and you need to 
+          change the line style of all the basic Line objects everywhere in the diagram.
+          You can accomplish this easily with the following steps. 
+          <orderedlist>
+            <listitem>
+              <simpara>
+                Select one basic Line object.
+              </simpara>
+            </listitem>
+            <listitem>
+              <simpara>
+                Use   
+                <menuchoice>
+                  <guimenu>
+                    Select
+                  </guimenu>
+                  <guimenuitem>
+                    Same Type
+                  </guimenuitem>
+                </menuchoice>
+                to select all of the basic Line objects on the diagram. 
+              </simpara>
+            </listitem>
+            <listitem>
+              <simpara>
+                Use 
+                <menuchoice>
+                  <guimenu>
+                    Objects
+                  </guimenu>
+                  <guimenuitem>
+                    Group
+                  </guimenuitem>
+                </menuchoice> 
+                to create a group for the selected objects. 
+              </simpara>
+            </listitem>
+            <listitem>
+              <simpara>
+                Double-click on the
+                group and make your property changes. 
+              </simpara>
+            </listitem>
+            <listitem>
+              <simpara>
+                Use 
+                <menuchoice>
+                  <guimenu>
+                    Objects
+                  </guimenu>
+                  <guimenuitem>
+                    Ungroup
+                  </guimenuitem>
+                </menuchoice>
+                to remove the group. 
+              </simpara>
+            </listitem>
+          </orderedlist>
+          With this technique, you can quickly change the properties
+          of many objects. This also works with selections containing 
+          multiple object types, as long as all of the selected objects have the 
+          properties you want to change. 
+        </para>
+      </sect3>
+
+
+    </sect2>
+
+  </sect1>
+  <sect1 id="colors">
+    <title>Colors</title> 
+    <para>
+      All objects in <application>Dia</application> have color attributes. Lines 
+      have line color. Shapes have line color and fill color. Text and other objects
+      that contain text have text color. In addition, the 
+      <menuchoice>
+        <guimenu>
+          Diagram
+        </guimenu>
+        <guimenuitem>
+          Properties</guimenuitem>
+      </menuchoice>
+      allows you to set colors for Background, Grid Lines, and Page Breaks.
+      Finally, the Toolbox allows you to set default foreground and background
+      colors for new objects. 
+    </para>
+    <para>
+      In most cases, there are two methods for selecting a color. First, you 
+      can select a color from a list of colors provided in the drop-down listbox
+      by each color property.
+      <figure>
+        <title>Color Listbox</title>
+        <screenshot>
+          <screeninfo>Color Listbox</screeninfo>
+          <graphic format="PNG" fileref="graphics/color-dropdown" srccredit="Mark Dexter" />
+        </screenshot>
+      </figure>  
+      The list contains five primary colors (black, white, red, green, and blue)
+      plus custom colors that have been previously used. You can just select a
+      color from the list or select "More colors..." to display the Select color
+      box. The Select color box allows you to select any color. It is explained in
+      the next section.
+
+
+    </para>
+    <sect2 id="color-selector">
+      <title>Select Color Box</title>
+      <figure>
+        <title>Select Color Box</title>
+        <screenshot>
+          <screeninfo>The Select color box is described below.</screeninfo>
+          <graphic format="PNG" fileref="graphics/color-selector1" srccredit="Jeremy" />
+        </screenshot>
+      </figure>
+      <para>
+        The Colors selector box contains 6 zones:
+        <orderedlist>
+          <listitem>
+            <para>
+              The colors wheel allows you to select a color using the mouse.
+              Select the color you want from the outer
+              ring. A white or black line shows the current position on the
+              ring. Select the darkness or lightness you want using the inner
+              triangle. A white or black circle shows the current position
+              in the triangle. You can click or drag on either surface. The
+              currently-selected color displays in the right side of the 
+              rectangle just below the circle.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Below the color wheel there are two rectangles. The left one
+              displays the current color of the object, the right one the new color 
+              (i.e., the one you currently have chosen using the colors wheel).
+              Pressing the OK button will set the object to the new color.
+            </para>
+            <para>
+              Just to the right of these rectangles, there is a pipette button.
+              When you click this button, the mouse pointer changes to
+              a pipette. When the pipette is active, you can click on
+              the canvas or any open application window (Like
+              <application>The Gimp</application>), and select any color! 
+            </para>
+            <note>
+              <para>
+                On Windows, you can only select from colors on the Dia canvas.
+              </para>
+            </note>
+          </listitem>
+          <listitem>
+            <para>
+              In the lower right there is a predefined color palette.
+              Click on any of these to choose the color.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              In the upper center there are settings for Hue, Saturation, and Value 
+              (HSV). You can select a 
+              color by typing a numeric value or by using the increment / 
+              decrement controls. Note that when you enter a value here, the 
+              color wheel selection changes to reflect the new color.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              To the right, there are settings for Red, Green, and Blue.
+              These work the same as the HSV controls. 
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              In the middle of the box is a place to enter a Color name.
+              This supports standard color names or HTML-style hexadecimal
+              color values. 
+              (See
+              <ulink type="http"
+                  url="http://www.w3.org/TR/html401/types.html#h-6.5"
+                  >HTML4.01 colors on http://www.w3.org</ulink>), and hexadecimal
+              values (0-9A-F) on 3 or 6 octets.
+            </para>
+          </listitem>
+        </orderedlist>
+      </para>
+    </sect2>
+  </sect1>
+  <sect1 id="diagram-tree">
+    <title>Diagram Tree</title>
+    <para>
+      The Diagram Tree provides an alternative method of working with a diagram. 
+      This window displays a list of all objects in the diagram in a scrolling 
+      list box. By right-clicking on an object, you can perform a number of operations.  
+    </para>
+    <sect2 id="open-diagram-tree">
+      <title>Opening the Diagram Tree</title>
+      <para>
+        The Diagram Tree is toggled on or off by selecting 
+        <menuchoice>
+          <guimenu>
+            File
+          </guimenu>
+          <guimenuitem>
+            Diagram Tree
+          </guimenuitem>
+        </menuchoice> from the Toolbox menu bar or by pressing F8
+        when the Toolbox is in focus.
+        When this is toggled on, the Diagram Tree window displays. 
+        The window closes when this is toggled off.
+      </para>
+
+    </sect2>
+    <sect2 id="working-diagram-tree">
+      <title>Working With the Diagram Tree</title>
+      <para>
+        Actions on the Diagram Tree affect the diagram canvas. If you double-click
+        on a diagram name in the list, that diagram window comes into focus
+        on your desktop. 
+        If you click an object on the list, that object is selected in the
+        diagram on the canvas, just as if you had clicked on it on the canvas.  
+        If you right-click on the Diagram tree list, a context menu
+        displays with six options, as shown in the figure below. 
+
+        <figure>
+          <title>Diagram Tree</title>
+          <screenshot>
+            <screeninfo>Diagram Tree</screeninfo>
+            <graphic format="PNG" fileref="graphics/diagram-tree" srccredit="Mark Dexter" />
+          </screenshot>
+        </figure>  
+
+        These options are explained below.
+      </para>
+      <itemizedlist>
+        <listitem>
+          <para>
+            Locate will bring the selected object into view on the canvas.
+            This can be useful if you are trying to find an object in a large 
+            diagram.
+          </para>
+        </listitem> 
+        <listitem>
+          <para>
+            Properties will display the properties dialog for the selected object. 
+            See <link linkend="object-properties">Object Properties</link> for 
+            more information.
+          </para>
+        </listitem> 
+        <listitem>
+          <para>
+            Hide this type will cause all objects of this type to be removed from the
+            list. They are still in the diagram, just not visible in this window.
+          </para>
+        </listitem> 
+        <listitem>
+          <para>
+            Show object type will display a list of any object types you have hidden
+            using Hide this type. You can select a hidden object type to restore it
+            to the list.
+          </para>
+        </listitem> 
+        <listitem>
+          <para>
+            Sort objects brings up a sub-menu of sort options as shown in the figure
+            below.
+            <figure>
+              <title>Diagram Tree Sort Options</title>
+              <screenshot>
+                <screeninfo>Diagram Tree Sort Options</screeninfo>
+                <graphic format="PNG" fileref="graphics/diagram-tree-sort" srccredit="Mark Dexter" />
+              </screenshot>
+            </figure>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <simpara>
+                  by name: sorts list by the text entered into the object.
+                </simpara>
+              </listitem>
+              <listitem>
+                <simpara>
+                  by type: sorts list by the object type (Box, Line, etc.).
+                </simpara>
+              </listitem>
+              <listitem>
+                <simpara>
+                  as inserted: sorts list in the order the objects were added to the diagram.
+                </simpara>
+              </listitem>
+              <listitem>
+                <simpara>
+                  All by name: same as by name except that it sorts all open diagrams, not
+                  just the selected one.
+                </simpara>
+              </listitem>
+              <listitem>
+                <simpara>
+                  All by type: same as by type except that it sorts all open diagrams, not
+                  just the selected one.
+                </simpara>
+              </listitem>
+              <listitem>
+                <simpara>
+                  All as inserted: same as as inserted except that it sorts all open diagrams, not
+                  just the selected one.
+                </simpara>
+              </listitem>
+              <listitem>
+                <simpara>
+                  Default: allows you to select which of the three sort types (by name, by type, 
+                  or as inserted) to use by default. Initial default is as inserted.
+                </simpara>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </listitem> 
+        <listitem>
+          <para>
+            Sort diagrams allows you to sort diagrams if you have more than one
+            diagram open during the session. The sort options are by name or as inserted
+            (meaning the order in which the diagrams were opened). 
+          </para>
+        </listitem> 
+      </itemizedlist>
+    </sect2>
+  </sect1>
+</chapter>
