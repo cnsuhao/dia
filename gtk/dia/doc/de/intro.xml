@@ -21,7 +21,7 @@
           <screeninfo>Dies ist ein einfaches Flussdiagramm, das mit 
           <application>Dia</application> erstellt wurde.
           </screeninfo>
-          <graphic format="PNG" fileref="graphics/sample-flowchart" srccredit="Mark Dexter" />
+          <graphic format="PNG" fileref="graphics/beispiel-flussdiagramm" srccredit="Steffen Macke" />
         </screenshot>
     </figure>
   </para>
