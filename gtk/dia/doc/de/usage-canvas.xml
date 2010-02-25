@@ -35,9 +35,9 @@
       <title>Diagrammeigenschaften / Gitter</title>
      <screenshot>
       <screeninfo>Diagrammeigenschaften / Gitter</screeninfo>
-      <graphic format="PNG" fileref="graphics/diagram-properties-grid" 
+      <graphic format="PNG" fileref="graphics/diagrammeigenschaften-gitter" 
    srccredit=
-      "Mark Dexter" />
+      "Steffen Macke" />
     </screenshot>
     </figure>
   Falls das Häkchen bei "Dynamisches Gitter" gesetzt ist, passen sich
@@ -76,9 +76,9 @@
       <title>Knopf "Einrasten am Gitter"</title>
      <screenshot>
       <screeninfo>Umschaltknopf "Einrasten am Gitter"</screeninfo>
-      <graphic format="PNG" fileref="graphics/snaptogrid-button" 
+      <graphic format="PNG" fileref="graphics/einrasten-am-gitter-knopf" 
    srccredit=
-      "Mark Dexter" />
+      "Steffen Macke" />
     </screenshot>
     </figure> 
   </para>
@@ -114,7 +114,7 @@
       <title>Lineal mit rot eingekreisten Pfeilen</title>
      <screenshot>
       <screeninfo>Lineal mit rot eingekreisten Pfeilen</screeninfo>
-      <graphic format="PNG" fileref="graphics/ruler-arrows" 
+      <graphic format="PNG" fileref="graphics/lineal-pfeile" 
    srccredit=
       "Mark Dexter" />
     </screenshot>
@@ -156,9 +156,9 @@
       <title>Hintergrundfarbe ändern</title>
      <screenshot>
       <screeninfo>Hintergrundfarbe ändern</screeninfo>
-      <graphic format="PNG" fileref="graphics/diagram-properties" 
+      <graphic format="PNG" fileref="graphics/diagrammeigenschaften-farben" 
    srccredit=
-      "Mark Dexter" />
+      "Steffen Macke" />
     </screenshot>
     </figure>  
   <note>
@@ -199,9 +199,9 @@
       <title>Zoomen der Zeichenfläche</title>
      <screenshot>
       <screeninfo>Zoomen der Zeichenfläche</screeninfo>
-      <graphic format="PNG" fileref="graphics/canvas-zoom" 
+      <graphic format="PNG" fileref="graphics/zeichenflaeche-zoomen" 
    srccredit=
-      "Mark Dexter" />
+      "Steffen Macke" />
     </screenshot>
     </figure>  
    <para>
@@ -213,9 +213,9 @@
       <title>Zoom-Optionen im Menü Ansicht</title>
      <screenshot>
       <screeninfo>Zoom-Optionen im Menü Ansicht</screeninfo>
-      <graphic format="PNG" fileref="graphics/view-zoom" 
+      <graphic format="PNG" fileref="graphics/zoom-menue" 
    srccredit=
-      "Mark Dexter" />
+      "Steffen Macke" />
     </screenshot>
     </figure>  
     <para>
@@ -239,8 +239,8 @@
         <title>Menü Ansicht</title>
        <screenshot>
         <screeninfo>Menü Ansicht</screeninfo>
-        <graphic format="PNG" fileref="graphics/view-menu" 
-     srccredit=   "Mark Dexter" />
+        <graphic format="PNG" fileref="graphics/ansicht-menue" 
+     srccredit=   "Steffen Macke" />
         </screenshot>
       </figure>
    </para>
