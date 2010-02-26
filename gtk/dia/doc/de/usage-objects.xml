@@ -12,7 +12,7 @@
       <title>Dias Werkzeugkasten</title>
       <screenshot>
         <screeninfo>Dias Werkzeugkasten</screeninfo>
-        <graphic format="PNG" fileref="graphics/toolbox" srccredit="Mark Dexter" />
+        <graphic format="PNG" fileref="graphics/werkzeugkasten" srccredit="Steffen Macke" />
       </screenshot>
     </figure>
     <para>
@@ -138,7 +138,7 @@
         <title>Spezielle Objekte</title>
         <screenshot>
           <screeninfo>Spezielle Objekte</screeninfo>
-          <graphic format="PNG" fileref="graphics/toolbox-special" srccredit="Mark Dexter" />
+          <graphic format="PNG" fileref="graphics/andere-objektboegen" srccredit="Steffen Macke" />
         </screenshot>
       </figure>
       <para>
@@ -421,8 +421,8 @@
         </listitem>
       </orderedlist> 
       <para>
-        At any time, you can disconnect or connect to a new point by clicking on the "from"
-        or "to" handle  and dragging it to a new location on the diagram.
+        Sie könnnen jederzeit eine Verbindung lösen oder mit einem neuen Punkt verbinden, indem sie
+		auf den Start- oder Endpunkt klicken und ihn auf eine neue Position im Diagramm ziehen.
       </para>
       <tip>
         <para>
