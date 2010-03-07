@@ -426,77 +426,77 @@
       </para>
       <tip>
         <para>
-          If you connect a line to a fixed point on a shape's perimeter, it will stay 
-          connected to this point when the object is moved. 
+          Wenn Sie eine Linie mit einem festen Punkt auf dem Umriss des Objektes verbinden, wird sie
+          bei einer Bewegung des Objektes mit diesem Punkt verbunden bleiben.
           <figure>
-            <title>Fixed Connection Point</title>
+            <title>Fester Verbindungspunkt</title>
             <screenshot>
-              <screeninfo>Fixed Connection Point</screeninfo>
+              <screeninfo>Fester Verbindungspunkt</screeninfo>
               <graphic format="PNG" fileref="graphics/connect-fixed" srccredit="Mark Dexter" />
             </screenshot>
           </figure>   
         </para>
         <para>
-          If you connect a line to 
-          the middle of an object, when you move the object the displayed 
-          connection point moves automatically, so you don't need to change the 
-          connection point. 
+          Wenn Sie eine Linie mit dem zentralen Verbindungspunkt verbinden, wird der
+          dargestellte Verbindungspunkt bei einer Bewegung des Objektes automatisch 
+          verschoben, er muss nicht geändert werden.
           <figure>
-            <title>Middle Connection Point</title>
+            <title>Zentraler Verbindungspunkt</title>
             <screenshot>
-              <screeninfo>Middle Connection Point</screeninfo>
+              <screeninfo>Zentraler Verbindungspunkt</screeninfo>
               <graphic format="PNG" fileref="graphics/connect-middle" srccredit="Mark Dexter" />
             </screenshot>
           </figure>
         </para>
         <para>
-          Note that, when a line is connected to the middle of an object, the line's
-          connection handle is still positioned on the perimeter of the object. So 
-          to move the line's connection point, drag on the line's handle (as opposed
-          to the middle of the object).
+          Beachten Sie, dass, wenn eine Linie mit dem zentralen Verbindungspunkt
+          verbunden haben, der Handgriff trotzdem auf dem Umriss des Objektes
+          positioniert wird. Um den Verbindungspunkt zu verändern, müssen Sie
+          deshalb den Handgriff der Linie verschieben (und nicht den Mittelpunkt
+          des Objektes).
         </para>
       </tip>  
-      <tip>
-        <para>
-          If you connect a Line or Polyline object to the middle of a shape 
-          when you first place the 
-          line on the canvas, you need to be careful when connecting the "to" end 
-          of the line. Be sure to click on the line's handle and not on
-          the surrounding area within the shape. If you click on the surrounding area
-          inside the shape, you will select the shape and not the line's handle. If this 
-          happens, click outside the shape to deselect it and then carefully click
-          on the "x" in the middle of the object (not on the line's arrow). The 
-          handle will display, and you can drag it to the desired location. Note that 
-          the handle will display as red, because it is connected to the middle. Also
-          note that you need to drag it outside the shape before you can see the line.
-        </para>
-      </tip>
       <para>
-        See <link linkend="line">Basic Objects / Line</link> for more information on
-        the different lines available. 
+        Unter <link linkend="line">Grundobjekte / Linie</link> finden Sie weitere
+        Informationen über die verfügbaren Linien.
       </para>
     </sect2>
     <sect2 id="entering-text">
-      <title>Entering Text</title>
+      <title>Texteingabe</title>
       <para>
-        Text can be entered by selecting the object and then typing the text. 
-        The font, size, alignment, and other formatting properties can be changed by 
-        double-clicking the object.
-      </para>
-      <para>
-        Here are some important tips regarding short-cut keys when entering text.
+        Text kann mit dem Werkzeug "Textbearbeitung" eingegeben und geändert werden.
+        Sie können das Werkzeug "Textbearbeitung" im Werkzeugkasten auswählen, auf das
+        gewünschte Objekt klicken (es muss die Textbearbeitung unterstützen) und dann
+        den Text tippen. Schriftart, -größe, -ausrichtung und andere 
+        Formatierungseinstellungen können mit einem Doppelklick auf das Textobjekt
+        geändert werden.
       </para>
       <figure>
-        <title>Edit Menu Text Commands</title>
+        <title>Werkzeug "Textbearbeitung"</title>
         <screenshot>
-          <screeninfo>Edit Menu Text Commands</screeninfo>
-          <graphic format="PNG" fileref="graphics/edit-text" srccredit="Mark Dexter" />
+          <screeninfo>Werkzeug "Textbearbeitung"</screeninfo>
+          <graphic format="PNG" fileref="graphics/toolbox-modify-text" srccredit="Steffen Macke" />
+        </screenshot>
+      </figure>
+      <para>
+      	Alternativ können Sie das Objekt auch mit dem <link linkend="toolbox-modify">Werkzeug "Objekt verändern"</link> 
+      	auswählen und dann mit der Taste F2 die Textbearbeitung aktivieren.
+      </para>
+      <para>
+        Hier einige wichtige Tipps zu Tastaturkürzeln bei der Texteingabe.
+      </para>
+      <figure>
+        <title>Text-Befehle im Menü "Bearbeiten</title>
+        <screenshot>
+          <screeninfo>Text-Befehle im Menü "Bearbeiten"</screeninfo>
+          <graphic format="PNG" fileref="graphics/bearbeiten-text-menue" srccredit="Steffen Macke" />
         </screenshot>
       </figure>  
       <tip>
         <para>
-          The normal Copy / Cut / Paste keys (Ctrl+C, Ctrl+X, Ctrl+V) work on 
-          entire objects, not on text. The Edit menu contains the commands 
+          Die normalen Tastaturkürzel Kopieren / Ausschneiden / Einfügen
+          (Strg+C, Strg+X, Strg+V) arbeiten mit ganzen Objekten, nicht den
+          Texten. The Edit menu contains the commands 
           Copy Text, Cut Text (Shift+Ctrl+X), and Paste Text (Shift+Ctrl+V) 
           to copy, cut, and paste just the text contents of an object. 
           Note that when you paste text into an object, the text is 
