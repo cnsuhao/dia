@@ -486,7 +486,7 @@
         Hier einige wichtige Tipps zu Tastaturkürzeln bei der Texteingabe.
       </para>
       <figure>
-        <title>Text-Befehle im Menü "Bearbeiten</title>
+        <title>Text-Befehle im Menü "Bearbeiten"</title>
         <screenshot>
           <screeninfo>Text-Befehle im Menü "Bearbeiten"</screeninfo>
           <graphic format="PNG" fileref="graphics/bearbeiten-text-menue" srccredit="Steffen Macke" />
@@ -496,48 +496,45 @@
         <para>
           Die normalen Tastaturkürzel Kopieren / Ausschneiden / Einfügen
           (Strg+C, Strg+X, Strg+V) arbeiten mit ganzen Objekten, nicht den
-          Texten. The Edit menu contains the commands 
-          Copy Text, Cut Text (Shift+Ctrl+X), and Paste Text (Shift+Ctrl+V) 
-          to copy, cut, and paste just the text contents of an object. 
-          Note that when you paste text into an object, the text is 
-          formatted according to the <application>Dia</application> object properties, 
-          not the text source.
+          Texten. Das Menü "Bearbeiten" enthält die Befehle "Text kopieren",
+          "Text ausschneiden" (Shift+Strg+X) und "Text einfügen" (Shift+Strg+V),
+          um nur die Textinhalte eines Objektes zu kopieren.
+          Bitte beachten Sie, dass, wenn Sie einen Text in 
+          <application>Dia</application> einfügen, dieser entsprechend der
+          Objekteigenschaften formatiert wird - unabhängig von der Textquelle.
         </para>
       </tip>
       <tip>
         <para>
-          You cannot select a section of text inside an object with the mouse (this
-          moves the object). You can insert characters at the current cursor position 
-          just by typing. You can delete the character to the left of the mouse using 
-          Backspace. IMPORTANT: The Del key deletes the entire object, not the text 
-          to the right of the cursor. Use Shift+Del, Ctrl+Del, or Alt+Del to delete 
-          the text to the right of the cursor. (Use Ctrl+Z or 
+          Sie können mit der Maus keinen Textabschnitt innerhalb eines Objektes 
+          markieren.
+          Sie können Zeichen an der aktuellen Cursorposition durch Tippen 
+          einfügen.
+          Wichtig: Falls das Werkzeug "Textbearbeitung" nicht aktiviert ist, 
+          löscht die Taste "Entf" löscht das gesamte Objekt.
+          (Nutzen Sie Strg+Z oder den Menüpunkt 
           <menuchoice>
-            <guimenu>Edit</guimenu>
-            <guimenuitem>Undo</guimenuitem>
-          </menuchoice>  if you delete 
-          an object by mistake.) To delete all of the text in an object, use the 
-          Cut (Shift+Ctrl+X). 
+            <guimenu>Bearbeiten</guimenu>
+            <guimenuitem>Rückgängig</guimenuitem>
+          </menuchoice>  falls Sie ein Objekt irrtümlich gelöscht haben.) 
+          Um den gesamten Text in einem Objekt zu löschen, nutzen Sie den Menüpunkt
+          <menuchoice>
+          	<guimenu>Bearbeiten</guimenu>
+          	<guimenuitem>Text ausschneiden</guimenuitem>
+          </menuchoice> (Shift+Strg+X).
         </para>
       </tip>
-      <figure>
-        <title>Deleting Text</title>
-        <screenshot>
-          <screeninfo>Deleting Text</screeninfo>
-          <graphic format="PNG" fileref="graphics/delete-text" srccredit="Mark Dexter" />
-        </screenshot>
-      </figure>  
-
     </sect2>
     <sect2 id="aligning-objects">
-      <title>Aligning Objects</title>
+      <title>Objekte ausrichten</title>
       <para>
-        <application>Dia</application> provides several options to help 
-        arrange multiple objects without needing to move each object 
-        individually. These are available on the <menuchoice>
-          <guimenu>Objects</guimenu>
-          <guimenuitem>Align</guimenuitem>
-        </menuchoice> menu choice shown below.
+        <application>Dia</application> bietet verschiedene Optionen zur
+        Ausrichtung einer Anzahl von Objekten - dabei ist es nicht notwendig,
+        Objekte einzeln zu verschieben. Die Optionen sind über den Menüeintrag 
+        <menuchoice>
+          <guimenu>Objekte</guimenu>
+          <guimenuitem>Ausrichten</guimenuitem>
+        </menuchoice> erreichbar und in untenstehender Abbildung dargestellt.
         <figure>
           <title>Objects / Align Options</title>
           <screenshot>
