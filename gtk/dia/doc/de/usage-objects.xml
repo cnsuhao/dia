@@ -536,182 +536,201 @@
           <guimenuitem>Ausrichten</guimenuitem>
         </menuchoice> erreichbar und in untenstehender Abbildung dargestellt.
         <figure>
-          <title>Objects / Align Options</title>
+          <title>Menü Objekte / Ausrichten</title>
           <screenshot>
-            <screeninfo>Objects / Align Options</screeninfo>
-            <graphic format="PNG" fileref="graphics/align-menu" srccredit="Mark Dexter" />
+            <screeninfo>Menü Objekte / Ausrichten</screeninfo>
+            <graphic format="PNG" fileref="graphics/objekte-ausrichten-menue.png" srccredit="Steffen Macke" />
           </screenshot>
         </figure>     
       </para>
       <sect3 id="how-to-align">
-        <title>How To Align Objects</title>
+        <title>Wie Objekte ausgerichtet werden können</title>
         <para>
-          To align objects, first select the objects to align (see  
-          <link linkend="selecting-chapter">Selecting Objects</link>
-          ) and then execute one of the align commands, using either the menu 
-          or the shortcut key. The order in which objects are selected does not 
-          matter. 
+          Um Objekte auszurichten, wählen Sie zunächst gewünschten
+          Objekte zusammen aus (Unter  
+          <link linkend="selecting-chapter">Objekte auswählen</link>
+          finden Sie detaillierte Hinweise dazu) und führen dann einen der
+          Ausrichtungsbefehle aus - entweder aus dem Menü heraus oder über
+          ein Tastaturkürzel. Die Reihenfolge, in der Sie die Objekte auswählen
+          spielt dabei keine Rolle.
         </para>
       </sect3>
       <sect3 id="align-left-center-right">
-        <title>Left, Center, and Right Align</title>
+        <title>Linksbündige, rechtsbündige und zentrierte Ausrichtung</title>
         <para>
-          The align left, right, and center are used to align objects arranged
-          vertically on the canvas. The align left aligns the selected objects 
-          to the left edge of the left-most object. Similarly, the align right 
-          aligns the selected objects to the right edge of the right-most object. 
-          Align center aligns the center of each object to the mid-point between the
-          extreme left and extreme right edge of all selected objects. Examples of 
-          align left, center, and right are shown below.  
+          Die Optionen Links, Zentrieren und Rechts werden genutzt, um vertikal
+          verteilte Objekte auf der Zeichenfläche bündig auszurichten dazu werden
+          die Objekte automatisch horizontal verschoben. 
+          Die linksbündige Ausrichtung verschiebt die ausgewählten Objekte so,
+          dass ihre linke Kante sich auf einer Linie befindet. Als Referenz
+          dient dabei das ausgewählte Objekt, welches sich am weitesten links befindet.
+          Analog dazu verschiebt die rechtsbündige Ausrichtung die ausgewählten
+          Objekte so, dass ihre rechte Kante sich auf einer Linie befindet, mit
+          dem ausgewählten Objekt, welches sich am weitesten rechts befindet
+          als Referenz. Die zentrierte Ausrichtung verschiebt die Objekte derart,
+          dass sich ihre Mittelpunkte auf einer vertikalen Linie durch den Mittelpunkt
+          zwischen den horizontal am weitesten auseinanderliegenden Punkten der
+          gewählten Objekte befinden. Beispiele der linksbündigen, rechtsbündigen und
+          zentrierten Ausrichtung sind in den folgenden Abbildungen dargestellt.
         </para>
         <figure>
-          <title>Before Left, Center, Right Align</title>
+          <title>Vor dem linkbündigen Ausrichten</title>
           <screenshot>
-            <screeninfo>Before Left, Center, Right Align</screeninfo>
-            <graphic format="PNG" fileref="graphics/before-left" srccredit="Mark Dexter" />
+            <screeninfo>Vor dem linksbündigen Ausrichten</screeninfo>
+            <graphic format="PNG" fileref="graphics/vor-linksbuendig" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
         <figure>
-          <title>Align Left</title>
+          <title>Linksbündig ausgerichtet</title>
           <screenshot>
-            <screeninfo>Align Left</screeninfo>
-            <graphic format="PNG" fileref="graphics/align-left" srccredit="Mark Dexter" />
+            <screeninfo>Linksbündig ausgerichtet</screeninfo>
+            <graphic format="PNG" fileref="graphics/linksbuendig-ausgerichtet" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
         <figure>
-          <title>Align Center</title>
+          <title>Zentriert ausgerichtet</title>
           <screenshot>
-            <screeninfo>Align Center</screeninfo>
-            <graphic format="PNG" fileref="graphics/align-center" srccredit="Mark Dexter" />
+            <screeninfo>Zentriert ausgerichtet</screeninfo>
+            <graphic format="PNG" fileref="graphics/zentriert" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
         <figure>
-          <title>Align Right</title>
+          <title>Rechtsbündig ausgerichtet</title>
           <screenshot>
-            <screeninfo>Align Right</screeninfo>
-            <graphic format="PNG" fileref="graphics/align-right" srccredit="Mark Dexter" />
+            <screeninfo>Rechtsbündig ausgerichtet</screeninfo>
+            <graphic format="PNG" fileref="graphics/rechtsbuendig-ausgerichtet" srccredit="Steffen Macke" />
           </screenshot>
         </figure>
       </sect3>   
       <sect3 id="align-top-middle-bottom">
-        <title>Top, Middle, and Bottom Align</title>
+        <title>Ausrichtungsoptionen Oben, Mitte und Unten</title>
         <para>
-          The align top, middle, and bottom are used to align objects arranged
-          horizontally on the canvas. The align top aligns the selected objects 
-          to the top edge of the upper-most object. Similarly, the align bottom 
-          aligns the selected objects to the bottom edge of the lowest object. 
-          Align middle aligns the middle of each object to the mid-point between the
-          extreme top and extreme bottom edge of all selected objects. Examples of 
-          align top, middle, and bottom are shown below.  
+          Die Ausrichtungsoptionen Oben, Mitte und Unten können genutzt werden,
+          um Objekte, die horizontal auf der Zeichnungsfläche verteilt sind,
+          vertikal auszurichten. Die Ausrichtungsoption Oben verschiebt die
+          ausgewählten Objekte derart, dass die obersten Kanten auf einer
+          horizontalen Linie mit dem höchsten Punkt der gewählten Objekte liegen.
+          Analog dazu verschiebt die Ausrichtungsoption Unten die gewählten Objekte
+          so in vertikaler Richtung, dass ihre untersten Kanten auf einer 
+          horizontalen Linie durch den tiefsten Punkt der gewählten Objekte
+          liegen.
+          Die Ausrichtungsoption Mitte verschiebt die Objekte derart,
+          dass sich ihre Mittelpunkte auf einer horizontalen Linie durch den Mittelpunkt
+          zwischen den vertikal am weitesten auseinanderliegenden Punkten der
+          gewählten Objekte befinden.
+          Beispiele der Ausrichtungsoptionen Oben, Mitte und Unten sind in den
+          folgenden Abbildungen zu sehen.
         </para>
         <figure>
-          <title>Before Top, Middle, Bottom Align</title>
+          <title>Vor Ausrichtung Oben</title>
           <screenshot>
-            <screeninfo>Before Top, Middle, Bottom Align</screeninfo>
-            <graphic format="PNG" fileref="graphics/before-top" srccredit="Mark Dexter" />
+            <screeninfo>Vor Ausrichtung Oben</screeninfo>
+            <graphic format="PNG" fileref="graphics/vor-ausrichtung-oben" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
         <figure>
-          <title>Align Top</title>
+          <title>Ausrichtung Oben</title>
           <screenshot>
-            <screeninfo>Align Top</screeninfo>
-            <graphic format="PNG" fileref="graphics/align-top" srccredit="Mark Dexter" />
+            <screeninfo>Ausrichtung Oben</screeninfo>
+            <graphic format="PNG" fileref="graphics/ausrichtung-oben" srccredit="Steffen Macke" />
           </screenshot>
         </figure> 
         <figure>
-          <title>Align Middle</title>
+          <title>Ausrichtung Mitte</title>
           <screenshot>
-            <screeninfo>Align Middle</screeninfo>
-            <graphic format="PNG" fileref="graphics/align-middle" srccredit="Mark Dexter" />
+            <screeninfo>Ausrichtung Mitte</screeninfo>
+            <graphic format="PNG" fileref="graphics/ausrichtung-mitte" srccredit="Steffen Macke" />
           </screenshot>
         </figure> 
         <figure>
-          <title>Align Bottom</title>
+          <title>Ausrichtung Unten</title>
           <screenshot>
-            <screeninfo>Align Bottom</screeninfo>
-            <graphic format="PNG" fileref="graphics/align-bottom" srccredit="Mark Dexter" />
+            <screeninfo>Ausrichtung Unten</screeninfo>
+            <graphic format="PNG" fileref="graphics/ausrichtung-unten" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
       </sect3>
       <sect3 id="align-spread-out">
-        <title>Spread Out Horizontally and Vertically</title>
+        <title>Horizontal und vertikal verteilen</title>
         <para>
-          The Align / Spread Out commands can be used to create uniform spacing
-          for objects arranged either horizontally or vertically. Examples of these 
-          commands are shown below.
+          Die Ausrichtungsfunktionen "Horizontal verteilen" und "Vertikal verteilen" können
+          dazu genutzt werden, die ausgewählten Objekte gleichmässig zu
+          verteilen. Beispiele in den folgenden Abbildungen erläutern
+          die Funktionen.
         </para>
         <figure>
-          <title>Before Spread Out Horizontally</title>
+          <title>Vor "Horizontal verteilen"</title>
           <screenshot>
-            <screeninfo>Before Spread Out Horizontally</screeninfo>
-            <graphic format="PNG" fileref="graphics/before-hor-spread" srccredit="Mark Dexter" />
+            <screeninfo>Vor "Horizontal verteilen"</screeninfo>
+            <graphic format="PNG" fileref="graphics/vor-horizontal-verteilen" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
         <figure>
-          <title>After Spread Out Horizontally</title>
+          <title>Nach "Horizontal verteilen"</title>
           <screenshot>
-            <screeninfo>After Spread Out Horizontally</screeninfo>
-            <graphic format="PNG" fileref="graphics/after-hor-spread" srccredit="Mark Dexter" />
+            <screeninfo>Nach "Horizontal verteilen"</screeninfo>
+            <graphic format="PNG" fileref="graphics/horizontal-verteilen" srccredit="Steffen Macke" />
           </screenshot>
         </figure>      
         <figure>
-          <title>Before Spread Out Vertically</title>
+          <title>Vor "Vertikal verteilen"</title>
           <screenshot>
-            <screeninfo>Before Spread Out Vertically</screeninfo>
-            <graphic format="PNG" fileref="graphics/before-vert-spread" srccredit="Mark Dexter" />
+            <screeninfo>Vor "Vertikal verteilen"</screeninfo>
+            <graphic format="PNG" fileref="graphics/vor-vertikal-verteilen" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
         <figure>
-          <title>After Spread Out Vertically</title>
+          <title>Nach "Vertikal verteilen"</title>
           <screenshot>
-            <screeninfo>After Spread Out Vertically</screeninfo>
-            <graphic format="PNG" fileref="graphics/after-vert-spread" srccredit="Mark Dexter" />
+            <screeninfo>Nach "Vertikal verteilen"</screeninfo>
+            <graphic format="PNG" fileref="graphics/vertikal-verteilen" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
       </sect3>
 
       <sect3 id="align-adjacent-stacked">
-        <title>Align Adjacent or Stacked</title>
+        <title>Angrenzende und gestapelte Ausrichtung</title>
         <para>
-          The Align / Adjacent command is used to place objects next to each other with no 
-          horizontal space in between. The Align / Stacked is used to place objects directly
-          on top of each other, with no vertical space in between. Examples of these 
-          commands are shown below.
+          Die Ausrichtungsfunktion "Angrenzend" richtet die gewählten Objekte
+          horizontal so aus, dass kein Raum zwischen ihnen verbleibt.
+          Die Ausrichtungsfunktion "Gestapelt" richtet die gewählten Objekte
+          vertikal so aus, dass kein Raum zwischen ihnen verbleibt. Die folgenden
+          Abbildungen illustrieren diese Funktionen.
         </para>
         <figure>
-          <title>Align / Adjacent</title>
+          <title>Ausrichtung / Angrenzend</title>
           <screenshot>
-            <screeninfo>Align / Adjacent</screeninfo>
-            <graphic format="PNG" fileref="graphics/adjacent" srccredit="Mark Dexter" />
+            <screeninfo>Ausrichtung / Angrenzend</screeninfo>
+            <graphic format="PNG" fileref="graphics/angrenzende-ausrichtung" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
         <figure>
-          <title>Align / Stacked</title>
+          <title>Ausrichtung / Gestapelt</title>
           <screenshot>
-            <screeninfo>Align / Stacked</screeninfo>
-            <graphic format="PNG" fileref="graphics/stacked" srccredit="Mark Dexter" />
+            <screeninfo>Ausrichtung / Gestapelt</screeninfo>
+            <graphic format="PNG" fileref="graphics/gestapelt" srccredit="Steffen Macke" />
           </screenshot>
         </figure>      
       </sect3>
     </sect2>
     <sect2 id="grouping-objects">
-      <title>Grouping Objects</title>
+      <title>Objekte gruppieren</title>
       <para>
-        Grouping allows you to treat several objects as a single entity.  
-        A group enables you to 
-        fix the position of the member objects in relation to each other and to 
-        change the properties of all member objects at one time. 
-        To create an object group, select two or more objects and then 
-        select   <menuchoice>
-          <guimenu>Objects</guimenu>
-          <guimenuitem>Group</guimenuitem>
-        </menuchoice>. 
+        Die Gruppierung erlaubt es, mehrere Objekte als Einheit zu
+        behandeln. Eine Gruppe ermöglicht es die Position der gruppierten
+        Objekte zueinander zu fixieren und die Objekteigenschaften in
+        einem Schritt zu ändern.
+        Um eine Objektgruppe zu erstellen, wählen zwei oder mehr Objekte
+        und wählen <menuchoice>
+          <guimenu>Objekte</guimenu>
+          <guimenuitem>Gruppieren</guimenuitem>
+        </menuchoice> im Menü. 
       </para>
       <figure>
-        <title>Before and After Group Create</title>
+        <title>Vor und nach der Gruppierung</title>
         <screenshot>
-          <screeninfo>Before and After Group Create</screeninfo>
-          <graphic format="PNG" fileref="graphics/object-group" srccredit= "Mark Dexter" />
+          <screeninfo>Vor und nach der Gruppierung</screeninfo>
+          <graphic format="PNG" fileref="graphics/gruppierung" srccredit= "Steffen Macke" />
         </screenshot>
       </figure>
       <para>
