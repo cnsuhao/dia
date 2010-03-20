@@ -734,30 +734,30 @@
         </screenshot>
       </figure>
       <para>
-        When the group is created or subsequently selected, a set of black handles 
-        displays around the outside of the group, as shown in the figure 
-        above. At this point, you can
-        move the  entire group just like you 
-        would move a single object. Just click and drag on any of the objects 
-        in the group. 
+        Nachdem die Gruppe erstellt wurde und wenn sie später ausgewählt wird,
+        weisen schwarze Handgriffe am Rand auf die Gruppierung hin. Die
+        gesamte Gruppe kann wie ein einzelnes Objekt bewegt werden. Klicken
+        und ziehen Sie dafür einfach eines der gruppierten Objekte.
       </para>
       <para>
-        You can also change the properties of all objects in a group by double-clicking
-        or using the right-click context menu. 
-        See <link linkend="changing-group-properties">Changing Properties for a 
-          Group of Objects</link> for more information.
+        Durch einen Doppelklick auf ein Objekt einer Gruppe können Sie Eigenschaften
+        Objekte in der Gruppe ändern. Diese Funktionalität steht auf im Kontextmenü
+        über einen rechten Mausklick zur Verfügung.
+        Unter <link linkend="changing-group-properties">Eigenschaften einer Gruppe
+          von Objekten ändern</link> finden Sie weitere Informationen dazu.
       </para>
     </sect2>
 
   </sect1>
   <sect1 id="object-properties">
-    <title>Object Properties</title>
+    <title>Objekteigenschaften</title>
     <para>
-      The properties of an object control it's appearance. Properties include text 
-      font and appearance; line width, style, and color; transparency (i.e., draw background
-      yes or no);  foreground and background 
-      color; and any other settings that control the way an object is displayed. 
-      Different types of objects have different sets of properties.
+      Die Eigenschaften eines Objektes kontrollieren sein Aussehen. Die
+      Eigenschaften beeinhalten Schriftart und Aussehen, Strichstärke, Linienart,
+      Schriftfarbe, Transparenz (ob der Hintergrund gezeichnet werden soll),
+      Vorder- und Hintergrundfarbe. Weitere Eigenschaften bestimmen, wie
+      ein Objekt dargestellt wird. Dabei weisen unterschiedliche Objekttypen
+      unterschiedliche Eigenschaften auf.
     </para>
     <para>
       The specific properties of an object are determined in two different ways. 
