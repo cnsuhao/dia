@@ -924,29 +924,30 @@
           </listitem>
           <listitem>
             <para>
-              In the upper center there are settings for Hue, Saturation, and Value 
-              (HSV). You can select a 
-              color by typing a numeric value or by using the increment / 
-              decrement controls. Note that when you enter a value here, the 
-              color wheel selection changes to reflect the new color.
+              Oben in der Mitte finden Sie Einstellungen für Farbton, -sättigung
+              und -wert. Sie können eine Farbe durch Eingabe der Werte oder durch
+              die Nutzung der Größer- bzw. Kleiner-Schaltflächen wählen. Beachten
+              Sie, dass das Farbrad sich entsprechend ändert, wenn Sie hier eine
+              Farbe eingeben.
             </para>
           </listitem>
           <listitem>
             <para>
-              To the right, there are settings for Red, Green, and Blue.
-              These work the same as the HSV controls. 
+              Auf der rechten Seite befinden sich Einstellungen für Rot,
+              Grün und Blau (RGB). Sie funktionieren wie die
+              Einstellungen Ton, Sättigung und Wert. 
             </para>
           </listitem>
           <listitem>
             <para>
-              In the middle of the box is a place to enter a Color name.
-              This supports standard color names or HTML-style hexadecimal
-              color values. 
-              (See
+              In der Mitte des Dialogs befindet sich ein Eingabefeld zur
+              Eingabe von Farben in der hexadezimalen Syntax, die auch
+              in HTML genutzt wird.
+              Unter
               <ulink type="http"
                   url="http://www.w3.org/TR/html401/types.html#h-6.5"
-                  >HTML4.01 colors on http://www.w3.org</ulink>), and hexadecimal
-              values (0-9A-F) on 3 or 6 octets.
+                  >HTML4.01 colors on http://www.w3.org</ulink>) finden
+              Sie weitere Informationen zu dieser Farbnotation.
             </para>
           </listitem>
         </orderedlist>
@@ -954,45 +955,42 @@
     </sect2>
   </sect1>
   <sect1 id="diagram-tree">
-    <title>Diagram Tree</title>
+    <title>Diagrammbaum</title>
     <para>
-      The Diagram Tree provides an alternative method of working with a diagram. 
-      This window displays a list of all objects in the diagram in a scrolling 
-      list box. By right-clicking on an object, you can perform a number of operations.  
+      Der Diagrammbaum bietet eine weitere Art, mit dem Diagramm zu arbeiten.
+      Das Dialogfenster stellt eine Liste aller Objekte im Diagramm dar.
+      Durch einen Rechtsklick auf die Objekte können Sie ein Kontextmenü mit
+      verschiedenen Operationen öffnen.  
     </para>
     <sect2 id="open-diagram-tree">
-      <title>Opening the Diagram Tree</title>
+      <title>Den Diagrammbaum öffnen</title>
       <para>
-        The Diagram Tree is toggled on or off by selecting 
+        Der Diagrammbaum lässt sich durch die Auswahl des Menüpunktes
         <menuchoice>
           <guimenu>
-            File
+            Datei
           </guimenu>
           <guimenuitem>
-            Diagram Tree
+            Diagrammbaum
           </guimenuitem>
-        </menuchoice> from the Toolbox menu bar or by pressing F8
-        when the Toolbox is in focus.
-        When this is toggled on, the Diagram Tree window displays. 
-        The window closes when this is toggled off.
+        </menuchoice> öffnen und schliessen. Alternativ können Sie die Taste "F8" drücken.
       </para>
 
     </sect2>
     <sect2 id="working-diagram-tree">
-      <title>Working With the Diagram Tree</title>
+      <title>Mit dem Diagrammbaum arbeiten</title>
       <para>
-        Actions on the Diagram Tree affect the diagram canvas. If you double-click
-        on a diagram name in the list, that diagram window comes into focus
-        on your desktop. 
-        If you click an object on the list, that object is selected in the
-        diagram on the canvas, just as if you had clicked on it on the canvas.  
-        If you right-click on the Diagram tree list, a context menu
-        displays with six options, as shown in the figure below. 
-
+        Operationen im Diagrammbaum beeinflussen die Zeichenfläche. Wenn Sie
+        auf einen Diagrammnamen im Diagrammbaum doppelklikcne, wird das
+        entsprechende Diagramm auf der Zeichenfläche aktiv.
+        Wenn Sie auf Objekt im Diagrammbaum klicken, wird dieses auf der
+        Zeichenfläche ausgewält - genauso als hätte Sie auf der Zeichenfläche
+        darauf geklickt. Durch einen Rechtsklick auf ein Objekt im Diagrammbaum
+        wird ein Kontextmenü wie in der folgenden Abbildung geöffnet.
         <figure>
-          <title>Diagram Tree</title>
+          <title>Diagrammbaum</title>
           <screenshot>
-            <screeninfo>Diagram Tree</screeninfo>
+            <screeninfo>Diagrammbaum</screeninfo>
             <graphic format="PNG" fileref="graphics/diagram-tree" srccredit="Mark Dexter" />
           </screenshot>
         </figure>  
