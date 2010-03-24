@@ -988,52 +988,50 @@
         darauf geklickt. Durch einen Rechtsklick auf ein Objekt im Diagrammbaum
         wird ein Kontextmenü wie in der folgenden Abbildung geöffnet.
         <figure>
-          <title>Diagrammbaum</title>
+          <title>Diagrammbaum mit Kontextmenü</title>
           <screenshot>
-            <screeninfo>Diagrammbaum</screeninfo>
-            <graphic format="PNG" fileref="graphics/diagram-tree" srccredit="Mark Dexter" />
+            <screeninfo>Diagrammbaum mit Kontextmenü</screeninfo>
+            <graphic format="PNG" fileref="graphics/diagrammbaum" srccredit="Steffen Macke" />
           </screenshot>
         </figure>  
 
-        These options are explained below.
+        Die Optionen des Kontextmenüs werden im Folgenden erläutert.
       </para>
       <itemizedlist>
         <listitem>
           <para>
-            Locate will bring the selected object into view on the canvas.
-            This can be useful if you are trying to find an object in a large 
-            diagram.
+            "Auffinden" verschiebt das Diagramm so, dass das gewählte
+            Objekt auf der Zeichenfläche sichtbar wird. Dies kann nützlich
+            sein, um ein Objekt in einem komplexen Diagramm zu finden.
           </para>
         </listitem> 
         <listitem>
           <para>
-            Properties will display the properties dialog for the selected object. 
-            See <link linkend="object-properties">Object Properties</link> for 
-            more information.
+            "Eigenschaften" öffnet den Eigenschaftendialog des gewählten Objektes.
+            Unter <link linkend="object-properties">Objekteigenschaften</link>
+            finden Sie weitere Informationen zu diesem Dialog.
           </para>
         </listitem> 
         <listitem>
           <para>
-            Hide this type will cause all objects of this type to be removed from the
-            list. They are still in the diagram, just not visible in this window.
+            "Diesen Typ verbergen" wird alle Objekte dieses Typs im Diagrammbaum
+            verstecken. Die Objekte existieren allerdings weiter im Diagramm.
           </para>
         </listitem> 
         <listitem>
           <para>
-            Show object type will display a list of any object types you have hidden
-            using Hide this type. You can select a hidden object type to restore it
-            to the list.
+            "Objekttyp zeigen" listet die im Diagrammbaum verborgenen 
+            Objekttypen und erlaubt es, diese wieder einzublenden.
           </para>
         </listitem> 
         <listitem>
           <para>
-            Sort objects brings up a sub-menu of sort options as shown in the figure
-            below.
+            "Objekte sortieren" öffnet das unten aufgeführte Untermenü.
             <figure>
-              <title>Diagram Tree Sort Options</title>
+              <title>Sortieroptionen im Diagrammbaum</title>
               <screenshot>
-                <screeninfo>Diagram Tree Sort Options</screeninfo>
-                <graphic format="PNG" fileref="graphics/diagram-tree-sort" srccredit="Mark Dexter" />
+                <screeninfo>Sortieroptionen im Diagrammbaum</screeninfo>
+                <graphic format="PNG" fileref="graphics/diagrammbaum-sortieren" srccredit="Steffen Macke" />
               </screenshot>
             </figure>
           </para>
@@ -1041,41 +1039,46 @@
             <itemizedlist>
               <listitem>
                 <simpara>
-                  by name: sorts list by the text entered into the object.
+                  "nach Namen" sortiert den Baum des gewählte Diagramms
+                  nach in Objekten eingegebenen Texten.
                 </simpara>
               </listitem>
               <listitem>
                 <simpara>
-                  by type: sorts list by the object type (Box, Line, etc.).
+                  "nach Typ" sortiert den Baum des gewählte Diagramms
+                  nach Objekttypen (Rechteck, Linie, usw.).
                 </simpara>
               </listitem>
               <listitem>
                 <simpara>
-                  as inserted: sorts list in the order the objects were added to the diagram.
+                  "wie eingefügt" sortiert den Baum des gewählten
+                  Diagramms anhand des Zeitpunktes, an dem die
+                  Objekte in das Diagramm eingefügt wurden.
                 </simpara>
               </listitem>
               <listitem>
                 <simpara>
-                  All by name: same as by name except that it sorts all open diagrams, not
-                  just the selected one.
+                  "alle nach Namen" sortiert den komplette Diagrammbaum nach
+                  in den eingegebenen Texten.
                 </simpara>
               </listitem>
               <listitem>
                 <simpara>
-                  All by type: same as by type except that it sorts all open diagrams, not
-                  just the selected one.
+                  "alle nach Typ" sortiert den kompletten Diagrammbaum nach
+                  Objekttypen.
                 </simpara>
               </listitem>
               <listitem>
                 <simpara>
-                  All as inserted: same as as inserted except that it sorts all open diagrams, not
-                  just the selected one.
+                  "alle wie eingefügt" sortiert den kompletten Diagrammbaum
+                  anhand des Zeitpunktes, an dem die Objekte in die Diagramme
+                  eingefügt wurden.
                 </simpara>
               </listitem>
               <listitem>
                 <simpara>
-                  Default: allows you to select which of the three sort types (by name, by type, 
-                  or as inserted) to use by default. Initial default is as inserted.
+                  "Vorgabe" erlaubt es eine der der Sortieroptionen als Vorgabe
+                  zu wählen. Inital ist die Sortierung "wie eingefügt" gewählt.
                 </simpara>
               </listitem>
             </itemizedlist>
@@ -1083,9 +1086,9 @@
         </listitem> 
         <listitem>
           <para>
-            Sort diagrams allows you to sort diagrams if you have more than one
-            diagram open during the session. The sort options are by name or as inserted
-            (meaning the order in which the diagrams were opened). 
+            "Diagramme sortieren" erlaubt es die geöffneten Diagramme zu
+            sortieren. Die Sortierung kann nach Name oder Reihenfolge der Öffnung
+            erfolgen. 
           </para>
         </listitem> 
       </itemizedlist>

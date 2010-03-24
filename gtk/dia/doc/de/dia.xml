@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-
-
 <!DOCTYPE book
 
   PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
 
   [
 
-    <!ENTITY VERSION "0.97">
+    <!ENTITY VERSION "0.97.1">
 
     <!ENTITY INTRODUCTION SYSTEM "intro.xml">
 
@@ -17,22 +15,6 @@
     <!ENTITY CANVAS SYSTEM "usage-canvas.xml">
 
     <!ENTITY OBJECTS SYSTEM "usage-objects.xml">
-
-    <!ENTITY BASIC-OBJECTS SYSTEM "usage-objects-basic.xml">
-
-    <!ENTITY SPECIAL-OBJECTS SYSTEM "usage-objects-special.xml">
-
-    <!ENTITY SELECTING-OBJECTS SYSTEM "usage-objects-selecting.xml">
-
-    <!ENTITY LOADING-SAVING SYSTEM "usage-loadsave.xml">
-
-    <!ENTITY CUSTOMIZATION SYSTEM "usage-customization.xml">
-
-    <!ENTITY LAYERS SYSTEM "usage-layers.xml">
-    
-    <!ENTITY CUSTOM-SHAPES SYSTEM "custom-shapes.xml">
-
-    <!ENTITY MANPAGE SYSTEM "dia-cmdline.xml">
 
     <!ENTITY AUTHORS SYSTEM "authors.xml">
 
@@ -46,11 +28,7 @@
 
 >
 
-
-
 <book id="index" lang="de"> <!-- please do not change the id -->
-
-
 
  <bookinfo>
 
@@ -62,7 +40,6 @@
    <year>2009</year>
    <year>2010</year>
    
-  
    <holder>Kevin Breit</holder>
 
    <holder>Henry House</holder>
@@ -131,22 +108,6 @@
 &CANVAS;
 
 &OBJECTS;
-
-&BASIC-OBJECTS;
-
-&SPECIAL-OBJECTS;
-
-&SELECTING-OBJECTS;
-
-&LOADING-SAVING;
-
-&CUSTOMIZATION;
-
-&LAYERS;
-
-&CUSTOM-SHAPES;
-
-&MANPAGE;
 
 &AUTHORS;
 
