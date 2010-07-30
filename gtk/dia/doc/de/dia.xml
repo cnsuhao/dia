@@ -15,6 +15,8 @@
     <!ENTITY CANVAS SYSTEM "usage-canvas.xml">
 
     <!ENTITY OBJECTS SYSTEM "usage-objects.xml">
+    
+    <!ENTITY BASIC-OBJECTS SYSTEM "usage-objects-basic.xml">
 
     <!ENTITY AUTHORS SYSTEM "authors.xml">
 
@@ -106,6 +108,8 @@
 &CANVAS;
 
 &OBJECTS;
+
+&BASIC-OBJECTS;
 
 &AUTHORS;
 
