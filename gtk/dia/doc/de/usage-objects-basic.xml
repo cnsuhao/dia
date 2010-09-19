@@ -120,158 +120,169 @@
         auf die Zickzacklinie) geändert werden.
       </para>
       <para>
-        Zickzacklinien erlauben es, Segmente hinzufügen oder zu löschen
-        Zigzaglines also allow you to add or delete line segments. This can be useful
-        if you need the line to turn several corners (e.g., to traverse around some
-        other objects) or to get the arrow pointed in the right direction. To add or
-        delete a segment, right-click on the line at the point on the line 
-        where you want to add or delete and select Add segment or Delete segment.
+        Zickzacklinien erlauben es, Segmente hinzufügen oder zu löschen. Das ist
+        nützlich, wenn die Linie um mehrere Ecken geführt wird (zum Beispiel, um
+        andere Objekte zu umrunden) oder um den Pfeil in die gewünschte Richtung
+        zeigen zu lassen. Um ein Segment hinzuzufügen oder zu entfernen, wählen
+        Sie eine Zickzacklinie aus und klicken dann mit der rechten Maustaste
+        auf die Linie. Im Kontextmenü wählen Sie "Segment hinzufügen" oder 
+        "Segment löschen".
       </para>
       <figure>
-        <title>Zigzagline Right-Click Menu</title>
+        <title>Kontextmenü Zickzacklinie</title>
         <screenshot>
-          <screeninfo>Zigzagline Right-Click Menu</screeninfo>
-          <graphic format="PNG" fileref="graphics/zickzacklinie-kontextmenue" srccredit="Mark Dexter" />
+          <screeninfo>Kontextmenü Zickzacklinie</screeninfo>
+          <graphic format="PNG" fileref="graphics/zickzacklinie-kontextmenue" srccredit="Steffen Macke" />
         </screenshot>
       </figure>   
     </sect2>
     <sect2 id="polyline">
-      <title>Polyline</title>
+      <title>Linienzug</title>
       <para>
-        A Polyline has multiple segments like a zigzagline, but can have turns
-        of any angle. A Polyline starts with one segment. You add more segments 
-        by right-clicking and selecting Add segment from the menu. Like the Zigzagline, 
-        the Polyline has a Corner radius value between 0 and 10.00, where 0 = sharp
-        corners and 10.00 = maximally-rounded corners.  
+        Ein Linienzug hat mehrere Segmente wie eine Zickzacklinie, die 
+        einzelnen Abschnitte können aber beliebige Winkel zueinander einnehmen.
+        Wie bei der Zickzacklinie können Sie weitere Segmente durch einen
+        Rechtsklick auf einen ausgewählte Linienzug und die Auswahl von
+        "Segment hinzufügen". Wie die Zickzacklinie weist der Linienzug einen
+        Eckenradius zwischen 0 und 10 auf, wobei 0 zu scharfen Ecken und 10 zu
+        maximal abgerundeten Ecken führt.  
       </para>
       <figure>
-        <title>Polyline Right-Click Menu</title>
+        <title>Kontextmenü Linienzug</title>
         <screenshot>
-          <screeninfo>Polyline Right-Click Menu</screeninfo>
-          <graphic format="PNG" fileref="graphics/polyline-rightclick" srccredit="Mark Dexter" />
+          <screeninfo>Kontextmenü Linienzug</screeninfo>
+          <graphic format="PNG" fileref="graphics/linienzug-kontextmenue" srccredit="Steffen Macke" />
         </screenshot>
       </figure>   
     </sect2>
     <sect2 id="bezier">
-      <title>Bezierline</title>
+      <title>Bezierlinie</title>
       <para>
-        A Bezierline is a line which has curves in it.  The Bezierline's shape is
-        edited by clicking and dragging the green and orange dots.  The green dots
-        customize the size while the orange dots customize the angles at which the
-        line curves. With a right-click menu, you can add or delete segments. If 
-        you add one or more segments, three additional properties are available.
+        Eine Bezierlinie ist eine Linie mit Kurven. Die Form der Bezierlinie
+        wird durch Klicken und Ziehen der grünen und orangenen Hangriffe
+        bearbeitet. Die grünen Handgriffe liegen immer auf der Linie selbst. Mit
+        den grünen Handgriffen lassen sich Winkel und Kurvenradien bestimmen.
+        Durch das über den Rechtsklick auf eine ausgewählte Bezierlinie
+        zugängliche Kontextmenü lassen sich weitere Segmente hinzufügen. Bei
+        Klick auf einen der grünen Handgriffe lässt sich eine der drei folgenden
+        Konfigurationsmöglichkeiten auswählen.
       </para>
       <itemizedlist>
         <listitem><para>
-            Symmetric control causes any dragging action on the added segment to be 
-            symmetrical around this point.
+            Symmetriekontrolle führt zu symmetrischer Anordnung der beiden 
+            orangenen Handgriffe um den gewählten grünen Linienpunkt.
           </para></listitem>
         <listitem><para>
-            Smooth control allows you to pull away from the middle point  
-            independently but rotations around the middle point are symmetrical.
+        	Glättekontrolle erlaubt es, die beiden orangenen Handgriffe 
+        	unterschiedlich weit entfernt vom grünen Linienpunkt zu positionieren.
+        	Die Winkel der Kontrolllinien werden aber symmetrisch geführt.
           </para></listitem>
         <listitem><para>
-            Cusp control allows you to drag each handle  
-            independently, and actions on one handle have no effect on the other one.
+        	Scheitelpunktkontrolle erlaubt es die orangenen Handgriffe
+        	unabhängig von einander zu positionieren.
           </para></listitem></itemizedlist>
       <figure>
-        <title>Bezierline Right-Click Menu</title>
+        <title>Kontextmenü Bezierlinie</title>
         <screenshot>
-          <screeninfo>Bezierline Right-Click Menu</screeninfo>
-          <graphic format="PNG" fileref="graphics/bezierline-rightclick" srccredit="Mark Dexter" />
+          <screeninfo>Kontextmenü Bezierlinie</screeninfo>
+          <graphic format="PNG" fileref="graphics/bezierlinie-kontextmenue" srccredit="Steffen Macke" />
         </screenshot>
       </figure>  
     </sect2>
     <sect2 id="line-properties">
-      <title>Line Properties</title>
+      <title>Linieneigenschaften</title>
       <para>
-        All lines share the following properties: width, color, style, 
-        and arrows. These properties may be edited using the Properties
-        dialog box shown below. 
+        Alle Linien besitzen die folgenden Eigenschaften: Breite, Farbe, 
+        Linienstil und Pfeile. Diese Eigenschaften können über den folgenden
+        Dialog bearbeitet werden.
       </para>
       <figure>
-        <title>Standard Line Properties</title>
+        <title>Linieneigenschaften</title>
         <screenshot>
-          <screeninfo>Standard Line Properties</screeninfo>
-          <graphic format="PNG" fileref="graphics/standard-line-properties" srccredit="Mark Dexter" />
+          <screeninfo>Linieneigenschaften</screeninfo>
+          <graphic format="PNG" fileref="graphics/linieneigenschaften" srccredit="Steffen Macke" />
         </screenshot>
       </figure>
       <sect3 id="line-thickness">
-        <title>Line Width</title>
+        <title>Linienbreite</title>
         <para>
-          The line width is measured in centimeters and can be entered manually
-          or by using the increment / decrement buttons.
+          Die Linienbreite wird in Zentimetern gemessen und kann durch direkte
+          Eingabe oder das Klicken der Vergrößern/Verkleinern-Knöpfe.
         </para>
       </sect3>
       <sect3 id="line-colors">
-        <title>Line Color</title>
+        <title>Linienfarbe</title>
         <figure>
-          <title>Line Colors</title>
+          <title>Linienfarbe</title>
           <screenshot>
-            <screeninfo>Line Colors</screeninfo>
-            <graphic format="PNG" fileref="graphics/line-colors" srccredit="Mark Dexter" />
+            <screeninfo>Linienfarben</screeninfo>
+            <graphic format="PNG" fileref="graphics/linienfarben" srccredit="Steffen Macke" />
           </screenshot>
         </figure>
         <para>
-          Line colors are edited by opening the Line color drop-down listbox and either
-          selecting one of the choices on the list or "More colors...", which opens the
-          Select color dialog. 
-          See <link linkend="colors">Colors</link> for more information on 
-          selecting colors.
+          Linienfarben werden über die Linienfarbenauswahlliste oder die Auwahl
+          des Punktes "Weitere Farben..." (dieser öffnet den Farbauswahldialog)
+          bestimmt.
+           
+          Unter <link linkend="colors">Farben</link> finden Sie weitere Informationen
+          zur Farbauswahl.
         </para>
       </sect3>
       <sect3 id="line-styles">
-        <title>Line Style</title>
+        <title>Linienstil</title>
         <figure>
-          <title>Line Styles</title>
+          <title>Linienstil</title>
           <screenshot>
-            <screeninfo>Line Styles</screeninfo>
-            <graphic format="PNG" fileref="graphics/line-styles" srccredit="Mark Dexter" />
+            <screeninfo>Linienstil</screeninfo>
+            <graphic format="PNG" fileref="graphics/linienstil" srccredit="Steffen Macke" />
           </screenshot>
         </figure>
         <para>
-          The style of the line (solid, dots, etc.) can be changed 
-          to one of the five options shown above using 
-          the Line style drop-down listbox. If you select a line style with dashes, 
-          you may also enter a dash length, measured in centimeters.
+          Die Art der Linie (durchgezogen, gepunktet, usw.) kann durch 
+          Auswahl einer der gezeigten 5 Optionen bestimmt werden. Falls Sie eine
+          gestrichelte Linien wählen, können Sie auch eine Strichlänge in 
+          Zentimetern angeben.s
         </para>
       </sect3>
 
       <sect3 id="arrows">
-        <title>Arrows</title>
+        <title>Pfeile</title>
         <figure>
-          <title>Line Arrows</title>
+          <title>Pfeile</title>
           <screenshot>
-            <screeninfo>Line Arrows</screeninfo>
-            <graphic format="PNG" fileref="graphics/line-arrows" srccredit="Mark Dexter" />
+            <screeninfo>Pfeilarten</screeninfo>
+            <graphic format="PNG" fileref="graphics/pfeilarten" srccredit="Steffen Macke" />
           </screenshot>
         </figure>
         <para>
-          The start and end arrow style can be changed using the drop-down listboxes
-          in the dialog. A large number of options are available. If you don't want
-          any arrow, just select the plain line at the top of the list.
+          Die Start- und Endpfeile können über die Auswahlliste im Dialog
+          gewählt werden. Falls Sie keinen Pfeil wünschen, wählen Sie das
+          einfache Linienende am Beginn der Liste.
         </para>
       </sect3>
     </sect2>
     <sect2 id="image">
-      <title>Image</title>
+      <title>Bild</title>
       <figure>
-        <title>Image</title>
+        <title>Bild</title>
         <screenshot>
-          <screeninfo>Image</screeninfo>
+          <screeninfo>Bild</screeninfo>
           <graphic format="PNG" fileref="graphics/toolbox-image" srccredit="Mark Dexter" />
         </screenshot>
       </figure>  
       <para>
-        A diagram can contain images as well as shapes.
-        To add an image, click on the Image icon and click on the canvas.
-        An object that says "Broken Image" will appear.  Double-click it to
-        open the properties dialog.  Then click on "Browse" and select your file.  
-        Click "OK" and then the image will display on the diagram. 
-        You can resize the image as desired using the object handles.
+        Ein Diagramm kann neben Objekten auch Bilder enthalten. Um ein Bild zu
+        einem Diagramm hinzuzufügen, klicken Sie das Bildsymbol und
+        anschliessend auf die Zeichenfläche. Es wird zunächst der Platzhalter
+        "Broken Image" eingefügt. Durch einen Doppelklick auf diesen Platzhalter
+        öffnen Sie den Eigenschaftendialog des Bildes. Dort können Sie durch
+        Klick auf den Knopf "Auswählen" die gewünschte Bilddatei bestimmen.
+        Nach einem Klick auf "OK" wird das Bild im Diagramm angezeigt.
+        Sie können die Bildgröße über die grünen Objekthandgriffe ändern.
       </para>
-      <para>The following image are usually supported for inclusion in
-        <application>Dia</application> diagrams:
+      <para>Die folgenden Bildformate werden in der Regel für Bilder
+        in
+        <application>Dia</application> unterstützt:
         <itemizedlist>
           <listitem><simpara>BMP</simpara></listitem>
           <listitem><simpara>JPEG</simpara></listitem>
@@ -279,19 +290,16 @@
           <listitem><simpara>SVG</simpara></listitem>
           <listitem><simpara>XPM</simpara></listitem>
         </itemizedlist>
-        The exact list depends on your system configuration (the concrete import
-        format filters available to gdk-pixbuf).
+        Die genaue Liste ist abhängig von der Systemkonfiguration (den
+        von der Gdk-Pixbuf-Bibliothek unterstützen Formaten).
       </para>
     </sect2>
     <sect2 id="outline">
-      <title>Outline</title>
+      <title>Kontur</title>
       <para>
-        One of the most requested features for <application>Dia</application> is rotated text;
-        shortly before having transformation capabilities for everything ;-)
-        The Outline object is a small step in that direction. It has known limitations in
-        convenience (you need to open the properties dialog to change the text) and 
-        rendering style (Dia's drawing model does not yet allow to 
-        <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=568168">render holes</ulink>).
+        Rotation von Texten ist eine der meistgefragten Fähigkeiten von Dia.
+        Durch das Kontur-Objekte steht diese Funktionalität zur Verfügung.
+        Der Rotationswikel lässt sich über den Eigenschaftendialog bestimmen.
       </para>
     </sect2>
   </sect1>
