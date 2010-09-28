@@ -235,66 +235,68 @@
         <title>GRAFCET</title>
 
         <para>
-          Grafcet (or IEC 61131-3 SFC) diagrams. Used in graphical
-          programming and documenting sequential processes in
-          manufacturing automation.
+          GRAFCET - beziehungsweiseIEC 61131-3 SFC Diagramme - werden in der
+          grafischen Programmierung und zur Dokumetation sequentielL Prozesse
+          in der Prozessautomatisierung genutzt.
         </para>
         <para>
-          A chart  shows the step, the action, the transition, and
-          the condition associated with the transition.  
-        </para>
-
-      </sect3>
-      <sect3>
-        <title>Istar</title>
-
-        <para>
-          Istar is agent-oriented modeling framework.  
-          Istar is also written as i*.   
+          Das Diagramm zeigt Schritt, Aktion, Übergang un die zum Übergang
+          gehörenden Bedingungen.  
         </para>
 
       </sect3>
       <sect3>
-        <title>Jackson</title>
+        <title>RE-i*</title>
 
         <para>
-          Jackson Software Design (JSD) method Diagrams.  
+          RE-i*, auch Istar genannt, ist ein agentenbasiertes Rahmenwerk zur
+          Anforderungsmodellierung.  
         </para>
 
       </sect3>
       <sect3>
-        <title>KAOS</title>
+        <title>RE-Jackson</title>
 
         <para>
-          KAOS Diagrams.  
+          Das Jackson Software Design (JSD) ist eine Entwurfsmethode für
+          Softwaresysteme.  
+        </para>
+
+      </sect3>
+      <sect3>
+        <title>RE-KAOS</title>
+
+        <para>
+          Anforderungsermittlung mit Hilfe von KAOS-Diagrammen.  
           <!-- provide a help description that is actually helpful! -->
         </para>
 
       </sect3>
 
       <sect3>
-        <title>Map 3D Isometric</title>
+        <title>Karte, isometrisch</title>
 
         <para>
-          Pseudo 3D isometric shapes for creating Directional Maps.  
-          Microsoft Visio calls these shapes Map, Directional Map 3D. 
+          Bausteine, um schematische Karten in einer isometrischen Projektion
+          zu erstellen. Hilfreich, um Navigationsskizzen zu erstellen. 
         </para>
 
       </sect3>
       <sect3>
-        <title>Misc. </title>
+        <title>Diverse</title>
 
         <figure>
-          <title>Misc</title>
+          <title>Diverse</title>
           <screenshot>
-            <screeninfo>Misc</screeninfo>
+            <screeninfo>Diverse</screeninfo>
             <graphic format="PNG" fileref="graphics/misc-shapes" srccredit="Hans Breuer" />
           </screenshot>
         </figure>
         <para>
-          Miscellaneous shapes that do not fit into any of the other 
-          groups.  Includes some File system shapes and an animated clock 
-          object that updates in real time.   
+          Diverse Objekte, die in keine der anderen Kategorien passen. Unter
+          anderem Symbole zur Darstellung eines Dateisytems, ein
+          konfigurierbares Gitter und eine analoge Uhr, die sich laufend
+          aktualisiert.   
         </para>
 
       </sect3>
@@ -302,33 +304,34 @@
         <title>MSE</title>
 
         <para>
-          Mobile Subscriber Equipment Components, 
-          as used by the United States Army.  
+          Verschiedene Symbole aus der Kommunikationstechnik, die zur Erstellung 
+          von "Mobile Subscriber Equipment"-Diagrammen
+          genutzt werden.  
         </para>
 
       </sect3>
       <sect3>
-        <title>Network</title>
+        <title>Netzwerk</title>
 
         <figure>
-          <title>Network</title>
+          <title>Netzwerk</title>
           <screenshot>
-            <screeninfo>Network</screeninfo>
+            <screeninfo>Netzwerk</screeninfo>
             <graphic format="PNG" fileref="graphics/network-shapes" srccredit="Mark Dexter" />
           </screenshot>
         </figure>
         <para>
-          Used by network administrators to create a design of their
-          network. 
+          Objekte, die von Netzwerkadministratoren zum Entwurf und der
+          Dokumentation von Computernetzwerken genutzt werden.
         </para>
 
       </sect3>
       <sect3>
-        <title>PLC Ladder</title>
+        <title>Leiter</title>
 
         <para>
-          PLC 'Ladder' graphical programming (electrical
-          controls in manufacturing automation).
+          Symbole aus der grafischen PLC-Programmierung. Die Schaltkreisobjekte
+          werden in der Prozessautomatisierung eingesetzt.
         </para>
 
       </sect3>
