@@ -336,10 +336,11 @@
 
       </sect3>
       <sect3>
-        <title>Pneumatic/Hydraulic</title>
+        <title>Pneumatik/Hydraulik</title>
 
         <para>
-          Allows diagramming of a device which employs hydraulics.
+          Symbole zur Darstellung von pneumatischen und hydraulischen
+          Systemen.
         </para>
 
       </sect3>
@@ -347,7 +348,7 @@
         <title>SADT</title>
 
         <para>
-          Structured Analysis Design Technique.  
+          Symbole zur Erstellung von SADT/IDEF0-Diagrammen (Strukturanalyse).  
         </para>
 
       </sect3>
@@ -355,12 +356,12 @@
         <title>SDL</title>
 
         <para>
-          Specification and Description Language (SDL)
-          SDL is used to describe the behavior of interactive 
-          time based systems.  
-          SDL was originally focused on telecommunication systems, but 
-          has also come to be used to describe process control and 
-          real-time applications in general.  
+          Symbole zur Erstellung von SDL-Diagrammen (Specification and 
+          Description Language). SDL-Diagramme werden genutzt, um das Verhalten
+          von interaktiven Systemen über die Zeit zu beschreiben.
+          SDL wird häufig in der Telekommunikation genutzt, kann aber auch
+          zur generellen Beschreibung von Prozesssteuerungen und
+          Echtzeitanwendungen genutzt werden.  
         </para>
 
       </sect3>
@@ -368,8 +369,8 @@
         <title>Sybase</title>
 
         <para>
-          Designs diagrams display the flow of a Sybase computer
-          network.
+          Symbole zur Beschreibung von Systemen aus Sybase-Datenbanken und
+          -Servern.
         </para>
 
       </sect3>
@@ -384,19 +385,19 @@
           </screenshot>
         </figure>
         <para>
-          Unified Modeling Language (UML).  
-          UML is a modeling and specification language commonly used to 
-          create diagrams showing the structure of object-oriented 
-          computer programming code, particularly for large scale 
-          projects. Some UML objects are complex and have extensive properties 
-          for various types of text entries, as shown in the screenshot below. 
+          Unified Modeling Language (UML). UML ist eine häufig genutzte 
+          Spezifikation zur visuellen Beschreibung in der objektorientierten
+          Programmierung - insbesondere für größere Projekte. 
+          Einige der UML-Objekte, wie beispielsweise die UML-Klasse im
+          folgenden Bild, weisen zahlreiche Eigenschaften auf, die sich über
+          den Eigenschaftendialog bearbeiten lassen. 
         </para>
         <para>
           <figure>
-            <title>UML Class Properties</title>
+            <title>Eigenschaften der UML-KLasse</title>
             <screenshot>
-              <screeninfo>UML Class Properties</screeninfo>
-              <graphic format="PNG" fileref="graphics/properties-uml-class1" srccredit="Hans Breuer" />
+              <screeninfo>Eigenschaften der UML-Klasse</screeninfo>
+              <graphic format="PNG" fileref="graphics/eigenschaften-uml-klasse" srccredit="Steffen Macke" />
             </screenshot>
           </figure>      
         </para>     
@@ -407,20 +408,22 @@
 
     </sect2>
     <sect2 id="sheets-objects">
-      <title>Organizing Sheets and Objects</title>
+      <title>Objekte und Objektbögen organisieren</title>
       <para>
-        It is possible to modify the way objects are grouped into sheets. Say, 
-        for example, that most of the object you need are on one sheet but you 
-        also need some objects from a second sheet. To keep everything you need
-        on one sheet, you can copy objects from one 
-        sheet to another as follows:
+        Die Gruppierung der Objekte in Objektbögen kann angepasst werden.
+        Falls Sie beispielsweise überwiegend Objekte aus einem Objektbogen
+        nutzen, aber einzelne Objekte aus weiteren Bögen benutzen, können
+        Sie einen kombinierten Objektbogen erstellen, der alle genutzten
+        Objekte enthält.
+        Das Kopieren der Objekte von einem Objektbogen in einen anderen wird
+        im Folgenden erläutert:
       </para>
       <orderedlist>
         <listitem>
           <para>
-            On the Toolbox menu, select 
-            <menuchoice><guimenu>File</guimenu>
-              <guimenuitem>Sheets and Objects</guimenuitem></menuchoice>. This will
+            Wählen Sie den Menüpunkt 
+            <menuchoice><guimenu>Datei</guimenu>
+              <guimenuitem>Objektbögen und Objekte</guimenuitem></menuchoice>. This will
             display the dialog shown in the figure below.
           </para>
           <para>
