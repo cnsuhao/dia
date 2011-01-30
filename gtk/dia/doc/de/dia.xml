@@ -17,6 +17,8 @@
     <!ENTITY OBJECTS SYSTEM "usage-objects.xml">
     
     <!ENTITY BASIC-OBJECTS SYSTEM "usage-objects-basic.xml">
+    
+    <!ENTITY SPECIAL-OBJECTS SYSTEM "usage-objects-special.xml">
 
     <!ENTITY AUTHORS SYSTEM "authors.xml">
 
@@ -41,6 +43,7 @@
    <year>2004</year>
    <year>2009</year>
    <year>2010</year>
+   <year>2011</year>
    
    <holder>Kevin Breit</holder>
 
@@ -110,6 +113,8 @@
 &OBJECTS;
 
 &BASIC-OBJECTS;
+
+&SPECIAL-OBJECTS;
 
 &AUTHORS;
 

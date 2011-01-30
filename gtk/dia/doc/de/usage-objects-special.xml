@@ -423,43 +423,45 @@
           <para>
             Wählen Sie den Menüpunkt 
             <menuchoice><guimenu>Datei</guimenu>
-              <guimenuitem>Objektbögen und Objekte</guimenuitem></menuchoice>. This will
-            display the dialog shown in the figure below.
+              <guimenuitem>Objektbögen und Objekte</guimenuitem></menuchoice>. 
+              Dadurch wird der unten dargestellte Dialog angezeigt.
           </para>
           <para>
             <figure>
-              <title>Sheets and Objects</title>
+              <title>Objektbögen und Objekte</title>
               <screenshot>
-                <screeninfo>Sheets and Objects</screeninfo>
-                <graphic format="PNG" fileref="graphics/sheets-objects" srccredit="Mark Dexter" />
+                <screeninfo>Objektbögen und Objekte</screeninfo>
+                <graphic format="PNG" fileref="graphics/objektboegen-objekte" srccredit="Steffen Macke" />
               </screenshot>
             </figure>
           </para>
         </listitem>
         <listitem>
           <para>
-            Using the drop-down listbox on the left side, select the sheet you want
-            to copy from. On the right, select the sheet you want to copy to.
+            Mit der Auswahlliste auf der linken Seite wählen Sie den Objektbogen,
+            aus dem heraus Sie kopieren wollen. Mit der rechten Auswahlliste
+            wählen Sie den Objektbogen, in den hinein Sie kopieren wollen.
           </para>
         </listitem>
         <listitem>
           <para>
-            Click on the object you wish to copy on the left side and press the Copy
-            button. 
+            Klicken Sie zunächst auf das Objekt, das Sie kopieren möchten und
+            anschliessend auf den Kopieren-Knopf.        
           </para>
         </listitem>
         <listitem>
           <para>
-            Repeat for any other objects you want to copy. When you are done, 
-            press the Apply button on the bottom to save your changes. 
+            Wiederholen Sie die oben genannten Schritte für alle Objekte, die
+            Sie kopieren möchten. Sobald Sie fertig sind, klicken Sie auf
+            "Anwenden", um Ihre Änderungen zu speichern. 
           </para>
         </listitem>
       </orderedlist>
       <para>
-        From now on, the new objects will be listed on the sheet on the right. 
-        You can also remove objects from sheets and move objects from one sheet
-        to another. You can also use the Up and Down buttons to change the order 
-        of the objects within a sheet.
+        Die kopierten Objekte werden von jetzt an im rechten Objektbogen
+        erscheinen. Sie können auch Objekte aus einem Objektbogen entfernen
+        oder in andere Bögen verschieben. Über die "Hoch"- und "Runter"-Knöpfe
+        lässt sich die Reihenfolge der Objekte in einem Objektbogen anpassen.
       </para>
     </sect2>
   </sect1>
