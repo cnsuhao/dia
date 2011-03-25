@@ -26,8 +26,8 @@
     <sect2 id="basic-selection">
       <title>Ein einzelnes Objekt auswählen</title>
       <para>
-        Um ein einzelnes Objekt auszuwählen, können Sie das Werkzeug "Objekte
-        verändern" wählen und anschliessend auf das gewünschte Objekt klicken.
+        Um ein einzelnes Objekt auszuwählen, können Sie das Werkzeug &quot;Objekte
+        verändern&quot; wählen und anschliessend auf das gewünschte Objekt klicken.
         Neu auf der Zeichenfläche platzierte Objekte werden automatisch
         ausgewählt.
       </para>
@@ -36,15 +36,13 @@
         grüne und rote Quadrate) angezeigt. Sobald das Objekt ausgewählt wurde,
         können Sie mit ihm arbeiten. Um den Eigenschaften-Dialog des Objektes
         aufzurufen, können sie das Objekt doppelklicken oder nach einem
-        Rechtsklick den Punkt "Eigenschaften" des Kontextmenüs wählen. 
+        Rechtsklick den Punkt &quot;Eigenschaften&quot; des Kontextmenüs wählen. 
       </para>
       <figure>
         <title>Ausgewähltes Objekt</title>
         <screenshot>
           <screeninfo>Ausgewähltes Objekt</screeninfo>
-          <graphic format="PNG" fileref="graphics/ausgewaehltes-objekt" 
-              srccredit=
-              "Steffen Macke" />
+          <graphic format="PNG" fileref="graphics/ausgewaehltes-objekt" srccredit="Steffen Macke"/>
         </screenshot>
       </figure>  
     </sect2>
@@ -55,7 +53,7 @@
         leeren Teil der Zeichenfläche oder durch die Auswahl anderer Objekte
         aufgehoben werden. Dadurch werden die grünen und roten Handgriffe
         des Objektes ausgeblendet. Auch durch die Auswahl einer anderen Ebene
-        oder das Anlegen einer neuen Ebene über den Menüpunkt "Ebenen"
+        oder das Anlegen einer neuen Ebene über den Menüpunkt &quot;Ebenen&quot;
         wird die komplette Objektauswahl aufgehoben.
       </para>
 
@@ -84,7 +82,7 @@
 
         <para>
           Eine einfache Methode, um zwei oder mehr Objekte gleichzeitig
-          auszuwählen, ist es, bei gewähltem Werkzeug "Objekte verändern", die 
+          auszuwählen, ist es, bei gewähltem Werkzeug &quot;Objekte verändern&quot;, die 
           Shift-Taste gedrückt zu halten, während Sie mit der Maus auf die
           gewünschten Objekte klicken (Shift-Klick). Dabei sorgt ein Shift-Klick auf ein
           bisher nicht ausgewähltes Objekt dafür, dass dieses der zur Auswahl
@@ -123,116 +121,55 @@
         </para>
         <figure>
           <title>Rechteckauswahlbeispiel</title>
-          <screenshot>
-            <screeninfo>Rechteckauswahlbeispiel</screeninfo>
-            <graphic format="PNG" fileref="graphics/select-area" 
-                srccredit= "Mark Dexter" />
-          </screenshot>
-          <blockquote>
-            <simpara>Only objects entirely inside rectangle are selected.</simpara>
-          </blockquote>
+          <screenshot> <screeninfo>Rechteckauswahlbeispiel</screeninfo> <graphic format="PNG" fileref="graphics/select-area" srccredit="Mark Dexter"/> </screenshot> <blockquote> <simpara>Nur Objekte, die sich komplett im Rechteck befinden, sind ausgewählt.</simpara> </blockquote>
         </figure>  
         <tip>
-          <para>
-            You can select multiple regions using select by area. Objects previously selected
-            will continue to be selected as long as you don't deselect all (e.g., by 
-            double-clicking on an empty region of the canvas or by clicking on an 
-            unselected object without using the Shift key). As noted above, you can
-            also use Shift+Click to select or deselect an individual object at any time.
-          </para> </tip>
+          <para>Sie können mehrere Regionen mit der Rechteckauswahl selektieren. Vorher ausgewählte Objekte werden ausgewählt bleiben, solange Sie die Auswahl nicht verwerfen (beispielsweise durch einen Doppelklick auf eine leere Region der Zeichenfläche oder durch einen Klick auf ein nicht gewähltes Objekt ohne die Shift-Taste) Wie oben erwähnt, können Sie jederzeit mit Shift+Klick einzelne Objekte an- oder abwählen.</para> </tip>
         <tip>
-          <para>
-            Normally, selecting from top-left to bottom-right is the same as a "reverse 
-            drag" --  
-            starting on the bottom-right and dragging toward the top-left.
-            However, you can set an option in <application>Dia</application> that allows you 
-            to select objects that are only partially contained in the selection rectangle
-            when you "reverse drag". See <link linkend="user-interface">User Interface /
-              Reverse Dragging</link> for more information.
-          </para> </tip>  
+          <para>Normalerweise führt die Auswahl von oben-links nach unten-rechts zum selben Ergebnis wie eine &quot;entgegengesetztes Ziehen&quot; - ausgehend von der Ecke unten-rechts zur Ecke rechts-oben. Allerdings können Sie eine Option in <application>Dia</application> aktivieren, die es erlaubt nur schneidende Objekte zu wählen, wenn Sie &quot;entgegengesetzt Ziehen&quot; Unter <link linkend="user-interface">Benutzerschnittstelle / entgegengesetztes Ziehen</link> finden Sie weitere Informationen.</para> </tip>  
 
 
       </sect3>
       <sect3 id="select-all">
-        <title>Select All</title>
-        <para>
-          The Select menu shown below has six options for selecting multiple objects. 
-          The first option is All.
-        </para>
+        <title>Alles auswählen</title>
+        <para>Das unten gezeigte Auwahlmenü bietet sechs Optionen zur Auswahl mehrerer Objekte. Die erste Option ist &quot;Alle&quot;.</para>
         <figure>
-          <title>Select Menu</title>
+          <title>Menü &quot;Auswahl&quot;</title>
           <screenshot>
-            <screeninfo>Select Menu</screeninfo>
-            <graphic format="PNG" fileref="graphics/select-menu" 
-                srccredit= "Mark Dexter" />
+            <screeninfo>Menü &quot;Auswahl&quot;</screeninfo>
+            <graphic format="PNG" fileref="graphics/select-menu" srccredit="Mark Dexter"/>
           </screenshot>
         </figure>   
 
 
-        <para>
-          You can select all objects on the canvas using the 
-          <menuchoice><guimenu>Select</guimenu>
-            <guimenuitem>All</guimenuitem>
-          </menuchoice> option  or by pressing Ctrl+A. This selects 
-          all objects whether they are visible or not. 
-        </para>
+        <para>Sie können alle Objekte auf der Zeichenfläche durch die Auswahl des Menüpunktes <menuchoice><guimenu>Auswahl</guimenu> <guimenuitem>Alles</guimenuitem></menuchoice> oder mit Strg+A selektieren. Dadurch werden alle Objekte ausgewählt, egal ob sie momentan sichtbar sind oder nicht.</para>
         <note>
-          <para>
-            As with any of the selection methods, if you are using layers, 
-            only objects in the current layer will be selected. See 
-            <link linkend="layers-chapter">Managing Layers</link> for
-            more information on working with layers.
-          </para>
+          <para>Wie mit jeder anderen Auswahlmethode werden nur die Objekte der aktuellen Ebene gewählt - sofern Sie mit Ebenen arbeiten. Unter <link linkend="layers-chapter">Ebenen verwalten</link> finden Sie weitere Informationen zur Arbeit mit Ebenen.</para>
         </note>
       </sect3>
 
       <sect3 id="select-none">
-        <title>Select None</title>
+        <title>Nichts auswählen</title>
         <para>
-          <menuchoice><guimenu>Select</guimenu>
-            <guimenuitem>None</guimenuitem>
-          </menuchoice>
-          option will deselect all objects. It has the
-          same effect as double-clicking on a blank region of the canvas.
-        </para>
+          <menuchoice><guimenu>Auswahl</guimenu> <guimenuitem>Keine</guimenuitem></menuchoice> wird alle Objekte abwählen. Hat denselben Effekt wie ein Doppelklick auf eine leere Region der Zeichenfläche.</para>
       </sect3>
 
 
       <sect3 id="select-invert">
-        <title>Select Invert</title>    
+        <title>Auswahl umkehren</title>    
 
 
-        <para>
-          This option allows you to select all objects except for those currently
-          selected. Say, for example, that you have 20 objects and wish to select
-          all but two of them. You can do this by (1) selecting the two objects
-          to be excluded and then (2) using the 
-          <menuchoice>
-            <guimenu>Select</guimenu>
-            <guimenuitem>Invert</guimenuitem></menuchoice> menu (or Ctrl+I). 
-          This will
-          deselect the two currently-selected objects and select the 18 unselected
-          objects. 
-        </para>
+        <para>Diese Auswahl erlaubt es alle Objekte bis auf die aktuell selektierten Objekte auszuwählen. Stellen Sie sich beispielsweise vor, dass Sie 20 Objekte haben und alle bis auf zwei auswählen möchten. Sie können dies tun, imdem Sie (1) die beiden Objekte, die ausschliessen wollen wählen und dann (2) den Menüpunkt <menuchoice><guimenu>Auswahl</guimenu> <guimenuitem>Umkehren</guimenuitem></menuchoice> wählen oder Strg+I drücken. Dadurch werden die zwei momentan gewählten Objekte abgewählt und die 18 nicht ausgewählten Objekte selektiert.</para>
 
         <tip>
-          <para>
-            Another way to do this is to <menuchoice><guimenu>Select</guimenu>
-              <guimenuitem>All</guimenuitem>
-            </menuchoice> (or Ctrl+A) and then use Shift+Click to deselect the 
-            objects you don't need.
-          </para>
+          <para>Eine weitere Möglichkeit, dies zu tun, ist, den Menüpunkt <menuchoice><guimenu>Auswahl</guimenu> <guimenuitem>Alle</guimenuitem></menuchoice> (oder Strg+A zu drücken) und dann die zwei nicht benötigten Objekte mit Shift+Klick abzuwählen.</para>
         </tip>
 
 
       </sect3>
       <sect3 id="selection-transitive">
-        <title>Select Transitive</title>
-        <para>
-          Objects in <application>Dia</application> can be connected using lines. The
-          Select Transitive and Select Connected options allow you to select 
-          objects based on how they are connected.
-        </para>
+        <title>Transitive Auwahl</title>
+        <para>Objekte in <application>Dia</application> können durch Linien verbunden werden. Die transitive Auwahl erlaubt es Objekte danach auszuwählen, wie sie miteinander verbunden sind.</para>
         <para>
           The Select Transitive option selects ALL objects connected directly or 
           indirectly to the currently 
