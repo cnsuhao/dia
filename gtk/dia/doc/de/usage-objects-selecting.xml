@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
-[
-<!ENTITY VERSION "0.97">
-]>
-<book id="index" lang="de"> <!-- please do not change the id -->
-
-
 <chapter label="7" id="selecting-chapter">
   <title>Objekte auswählen</title>
   <sect1 id="selecting-introduction">
@@ -232,4 +224,3 @@
     </sect2>
   </sect1>
 </chapter>
-</book>

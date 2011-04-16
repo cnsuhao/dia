@@ -20,6 +20,8 @@
     
     <!ENTITY SPECIAL-OBJECTS SYSTEM "usage-objects-special.xml">
 
+    <!ENTITY SELECTING-OBJECTS SYSTEM "usage-objects-selecting.xml">
+
     <!ENTITY AUTHORS SYSTEM "authors.xml">
 
     <!ENTITY LICENSE SYSTEM "license.xml">
@@ -115,6 +117,8 @@
 &BASIC-OBJECTS;
 
 &SPECIAL-OBJECTS;
+
+&SELECTING-OBJECTS;
 
 &AUTHORS;
 
