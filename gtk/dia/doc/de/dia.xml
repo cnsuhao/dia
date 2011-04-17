@@ -22,6 +22,8 @@
 
     <!ENTITY SELECTING-OBJECTS SYSTEM "usage-objects-selecting.xml">
 
+    <!ENTITY LOADING-SAVING SYSTEM "usage-loadsave.xml">
+
     <!ENTITY AUTHORS SYSTEM "authors.xml">
 
     <!ENTITY LICENSE SYSTEM "license.xml">
@@ -119,6 +121,8 @@
 &SPECIAL-OBJECTS;
 
 &SELECTING-OBJECTS;
+
+&LOADING-SAVING;
 
 &AUTHORS;
 
