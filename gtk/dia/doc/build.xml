@@ -92,7 +92,7 @@
 
 		<antcall target="copy-images">
 			<param name="doc.dir" value="${doc.dir}" />
-			<param name="output.dir" value="${doc.dir}/pdf" />
+			<param name="output.dir" value="${doc.dir}/fo" />
 		</antcall>
 
 		<xslt style="${fo.stylesheet}" extension=".fo" basedir="${doc.dir}" destdir="${doc.dir}/fo">
@@ -111,8 +111,7 @@
 				</fileset>
 			</classpath>
 		</taskdef>
-
-		<fop format="application/pdf" fofile="${doc.dir}/fo/${ant.project.name}.fo" outfile="${doc.dir}/${ant.project.name}.pdf" force="true" />
+		<fop format="application/pdf" fofile="${doc.dir}/fo/${ant.project.name}.fo" outfile="${doc.dir}/${ant.project.name}.pdf" basedir="${doc.dir}/fo" force="true" />
 		<copy file="${doc.dir}/${ant.project.name}.pdf" tofile="${help.dir}/dia-manual.pdf" overwrite="true" />
 	</target>
 
@@ -159,7 +158,10 @@
 	</target>
 
 	<target name="build-all" depends="depends" description="Generates documentation in CHM, HTML and PDF formats for various languages.">
-	
+	    <antcall target="build-chm-html-pdf">
+            <param name="doc.dir" value="${basedir}/de" />
+            <param name="help.dir" value="${basedir}/../build/win32/help/de" />
+        </antcall>
 		<antcall target="build-chm-html-pdf">
 			<param name="doc.dir" value="${basedir}/en" />
 			<param name="help.dir" value="${basedir}/../build/win32/help/en" />
