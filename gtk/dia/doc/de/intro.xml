@@ -4,13 +4,13 @@
   <title>Einleitung</title>
   <para>
    <application>Dia</application> ist eine Anwendung zur Erstellung von
-   technischen Diagrammen. Dia erlaubt es unter anderem, über mehrere Seiten 
+   technischen Diagrammen. Dia erlaubt es unter anderem, Ã¼ber mehrere Seiten 
    verteilte Diagramme zu drucken, es exportiert in viele Formate (u.a. PDF,
-   VDX, SVG, EPS, CGM und PNG) und bietet die Möglichkeit, benutzerdefinierte
-   Objekte zur Symbolpalette hinzuzufügen.
-   <application>Dia</application> bietet die Möglichkeit, UML-Diagramme, 
-   Netzwerkpläne und Flussdiagramme zu erstellen (Eine Vielzahl an weiteren
-   Diagrammtypen wird unterstützt).
+   VDX, SVG, EPS, CGM und PNG) und bietet die MÃ¶glichkeit, benutzerdefinierte
+   Objekte zur Symbolpalette hinzuzufÃ¼gen.
+   <application>Dia</application> bietet die MÃ¶glichkeit, UML-Diagramme, 
+   NetzwerkplÃ¤ne und Flussdiagramme zu erstellen (Eine Vielzahl an weiteren
+   Diagrammtypen wird unterstÃ¼tzt).
   </para>
   <para>
    Dieses Dokument beschreibt <application>Dia</application> in der Version 

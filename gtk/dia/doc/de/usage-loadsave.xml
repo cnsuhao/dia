@@ -3,17 +3,17 @@
 <sect1 id="loadsave-intro">
  <title>Einleitung Laden und Speichern</title>
   <para>
-   <application>Dia</application> folgt demselben Modell wie die meisten Desktop-Anwendungen: Sie müssen alle Zeichenflächen, die Sie später weiterverwenden wollen, explizit speichern. Um eine Datei zu speichern, wählen Sie <menuchoice> <guimenu>Datei</guimenu> <guimenuitem>Speichern</guimenuitem> </menuchoice> aus dem <interface>Menü</interface>. Es wird der Speicherdialog angezeigt. Ihr Diagramm wird im <application>Dia</application> XML-Format gespeichert. Da die Dateiendung nicht verändert wird, ist es eine gute Idee darauf zu achten, dass der Dateiname auf &quot;.dia&quot; endet.</para>
-  <para>Um ein zuvor von <application>Dia</application> oder einer anderen Anwendung gespeichertes Diagramm zu laden, wählen Sie <menuchoice><guimenu>Datei</guimenu> <guimenuitem>Öffnen</guimenuitem></menuchoice> aus dem <interface>Menü</interface>. Im Dialog <interface>Diagramm öffnen</interface> wählen Sie die gewünschte Datei und klicken auf <guibutton>Öffnen</guibutton>. Der Dialog <interface>Diagramm öffnen</interface> enthält eine Auswahlliste <guimenu>Dateityp bestimmen</guimenu>. Falls <application>Dia</application> das Dateiformat nicht automatisch erkennen kann, wählen Sie den gewünschten Dateityp (beispielsweise <application>Dia</application> XML).</para>
-  <para>Eine alternative Möglichkeit, Dateien zu laden, ist es <application>Dia</application> über die Kommandozeile zu starten und die zu öffnende Datei als Argument anzugeben.</para>
+   <application>Dia</application> folgt demselben Modell wie die meisten Desktop-Anwendungen: Sie mÃ¼ssen alle ZeichenflÃ¤chen, die Sie spÃ¤ter weiterverwenden wollen, explizit speichern. Um eine Datei zu speichern, wÃ¤hlen Sie <menuchoice> <guimenu>Datei</guimenu> <guimenuitem>Speichern</guimenuitem> </menuchoice> aus dem <interface>MenÃ¼</interface>. Es wird der Speicherdialog angezeigt. Ihr Diagramm wird im <application>Dia</application> XML-Format gespeichert. Da die Dateiendung nicht verÃ¤ndert wird, ist es eine gute Idee darauf zu achten, dass der Dateiname auf &quot;.dia&quot; endet.</para>
+  <para>Um ein zuvor von <application>Dia</application> oder einer anderen Anwendung gespeichertes Diagramm zu laden, wÃ¤hlen Sie <menuchoice><guimenu>Datei</guimenu> <guimenuitem>Ã–ffnen</guimenuitem></menuchoice> aus dem <interface>MenÃ¼</interface>. Im Dialog <interface>Diagramm Ã¶ffnen</interface> wÃ¤hlen Sie die gewÃ¼nschte Datei und klicken auf <guibutton>Ã–ffnen</guibutton>. Der Dialog <interface>Diagramm Ã¶ffnen</interface> enthÃ¤lt eine Auswahlliste <guimenu>Dateityp bestimmen</guimenu>. Falls <application>Dia</application> das Dateiformat nicht automatisch erkennen kann, wÃ¤hlen Sie den gewÃ¼nschten Dateityp (beispielsweise <application>Dia</application> XML).</para>
+  <para>Eine alternative MÃ¶glichkeit, Dateien zu laden, ist es <application>Dia</application> Ã¼ber die Kommandozeile zu starten und die zu Ã¶ffnende Datei als Argument anzugeben.</para>
  </sect1>
    <sect1 id="loadsave-filetypes">
    <title>Dateitypen</title>
-    <para>Einige Worte über Dateitypen. Sie sollten sich bewusst sein, dass nicht alle Exportformate von <application>Dia</application> geladen werden können und dass ein Export meist mit einem gewissen Informationsverlust einhergeht.</para>
+    <para>Einige Worte Ã¼ber Dateitypen. Sie sollten sich bewusst sein, dass nicht alle Exportformate von <application>Dia</application> geladen werden kÃ¶nnen und dass ein Export meist mit einem gewissen Informationsverlust einhergeht.</para>
     <sect2 id="loadsave-filetypes-dia">
     <title>Native Dia Diagrammdateien</title>
-     <para>Das einzige Format, das garantiert verlustfrei ist, ist <application>Dia</application> XML. Glücklicherweise ist es unwahrscheinlich, dass Sie versentlich ein Diagramm in ein verlustbehaftetes Format exportieren, da <menuchoice><guimenu>Datei</guimenu> <guimenuitem>Speichern</guimenuitem></menuchoice> immer Dateien im <application>Dia</application> XML Format erzeugt.</para>
-     <para>Dateien im <application>Dia</application> XML format können mit dem Gzip-Algorithmus komprimiert werden, um Speicherplatz zu sparen. Das ist hilfreich, da die XML-Dateien sonst sehr schnell sehr gross werden. Kompression von komprimierten <application>Dia</application> XML-Dateien in Archivdateien wird die Dateigröße nicht signifikant verringern.</para>
+     <para>Das einzige Format, das garantiert verlustfrei ist, ist <application>Dia</application> XML. GlÃ¼cklicherweise ist es unwahrscheinlich, dass Sie versentlich ein Diagramm in ein verlustbehaftetes Format exportieren, da <menuchoice><guimenu>Datei</guimenu> <guimenuitem>Speichern</guimenuitem></menuchoice> immer Dateien im <application>Dia</application> XML Format erzeugt.</para>
+     <para>Dateien im <application>Dia</application> XML format kÃ¶nnen mit dem Gzip-Algorithmus komprimiert werden, um Speicherplatz zu sparen. Das ist hilfreich, da die XML-Dateien sonst sehr schnell sehr gross werden. Kompression von komprimierten <application>Dia</application> XML-Dateien in Archivdateien wird die DateigrÃ¶ÃŸe nicht signifikant verringern.</para>
     </sect2>
     <sect2 id="loadsave-filetypes-import">
     <title>Importformate</title>
@@ -36,9 +36,9 @@
     </sect2>
 <!-- Add loadsave-filestypes-dif section in future -->
     <sect2 id="loadsave-filetypes-export">
-    <title>Exportieren: Unterstützung anderer Formate</title>
+    <title>Exportieren: UnterstÃ¼tzung anderer Formate</title>
      <para>
-     <application>Dia</application> unterstützt den Export in zahlreichen Dateiformaten, wie beispielsweise:<itemizedlist>
+     <application>Dia</application> unterstÃ¼tzt den Export in zahlreichen Dateiformaten, wie beispielsweise:<itemizedlist>
       <listitem>
        <para>Computer Graphics Metadatei (.cgm)</para>
       </listitem>
@@ -84,7 +84,7 @@
        <para>XSL Transformation (.code)</para>
       </listitem>
      </itemizedlist>
-     <application>Dia</application> kann die Dateien in den meisten dieser Formate nicht laden. Diese Formate sind nützlich, um Diagramme in anderen Applikationen einzubinden oder um sie an Nutzer von Betriebssystemen, die <application>Dia</application> nicht unterstützt.<!--Lets go through later and make this a variablelist, as well as describe
+     <application>Dia</application> kann die Dateien in den meisten dieser Formate nicht laden. Diese Formate sind nÃ¼tzlich, um Diagramme in anderen Applikationen einzubinden oder um sie an Nutzer von Betriebssystemen, die <application>Dia</application> nicht unterstÃ¼tzt.<!--Lets go through later and make this a variablelist, as well as describe
      the strengths of each of these formats  -->
 <!--      Computer Graphics Metafile, HPGL, EPS, PNG, SVG,
       TeX, and WPG formats are supported for crating files
@@ -95,7 +95,7 @@
       does not support.
 -->
      </para>
-     <para>Um eine solche Datei zu erzeugen, wählen Sie <menuchoice><guimenu>Datei</guimenu><guimenuitem>Exportieren...</guimenuitem></menuchoice> aus dem <interface>Menü</interface>. Im <interface>Speichern</interface>-Dialog wählen Sie einen Namen und das gewünschte Format. Die entsprechende Dateiendung wird automatisch angehängt.</para>
+     <para>Um eine solche Datei zu erzeugen, wÃ¤hlen Sie <menuchoice><guimenu>Datei</guimenu><guimenuitem>Exportieren...</guimenuitem></menuchoice> aus dem <interface>MenÃ¼</interface>. Im <interface>Speichern</interface>-Dialog wÃ¤hlen Sie einen Namen und das gewÃ¼nschte Format. Die entsprechende Dateiendung wird automatisch angehÃ¤ngt.</para>
    </sect2>
   </sect1>
 </chapter> 

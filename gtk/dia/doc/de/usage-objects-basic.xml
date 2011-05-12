@@ -1,7 +1,7 @@
 <chapter label="5" id="basic-objects-chapter">
   <title>Standardobjekte</title>
   <sect1 id="basic-objects-introduction">
-    <title>Einführung in die Standardobjekte</title>
+    <title>EinfÃ¼hrung in die Standardobjekte</title>
     <figure>
       <title>Standardobjekte</title>
       <screenshot>
@@ -17,9 +17,9 @@
     <sect2 id="text">
       <title>Text</title>
       <para>
-        <application>Dia</application> unterstützt die Nutzung von Texten als
-        eigenständige Objekte. Texte können nach Klick auf das Textwerkzeug im
-        Werkzeugkasten auf der Zeichenfläche platziert werden. Weitere Hinweise
+        <application>Dia</application> unterstÃ¼tzt die Nutzung von Texten als
+        eigenstÃ¤ndige Objekte. Texte kÃ¶nnen nach Klick auf das Textwerkzeug im
+        Werkzeugkasten auf der ZeichenflÃ¤che platziert werden. Weitere Hinweise
         finden Sie im Abschnitt 
         <link linkend="entering-text">Texteingabe</link> im Kapitel "Objekte
         benutzen".
@@ -27,26 +27,26 @@
       <note>
         <para>
           Ein Text in <application>Dia</application> kann fast alle im System
-          verfügbaren Schriftarten nutzen. Aber falls Sie planen, ihre Diagramme
+          verfÃ¼gbaren Schriftarten nutzen. Aber falls Sie planen, ihre Diagramme
           an Nutzern anderer Plattformen weiterzugeben, sollten Sie sich auf
-          eine gemeinsame Schnittmenge an Schriften beschränken.
+          eine gemeinsame Schnittmenge an Schriften beschrÃ¤nken.
         </para>
       </note>
       <para>
         Das Textobjekt und viele weitere Objekte erlauben die Texteingabe
         mit dem Werkzeug "Textbearbeitung". 
-        Sie können das Werkzeug "Textbearbeitung" im Werkzeugkasten auswählen, auf das
-        gewünschte Objekt klicken (es muss die Textbearbeitung unterstützen) und dann
-        den Text tippen. Schriftart, -größe, -ausrichtung und andere 
-        Formatierungseinstellungen können mit einem Doppelklick auf das Textobjekt
-        geändert werden.
+        Sie kÃ¶nnen das Werkzeug "Textbearbeitung" im Werkzeugkasten auswÃ¤hlen, auf das
+        gewÃ¼nschte Objekt klicken (es muss die Textbearbeitung unterstÃ¼tzen) und dann
+        den Text tippen. Schriftart, -grÃ¶ÃŸe, -ausrichtung und andere 
+        Formatierungseinstellungen kÃ¶nnen mit einem Doppelklick auf das Textobjekt
+        geÃ¤ndert werden.
       </para>    
     </sect2>
     <sect2 id="box">
       <title>Rechteck</title>
       <para>
-        Rechtecke in <application>Dia</application> können jede vom Nutzer
-        gewünschte Grösse annehmen. Weitere Rechteckeigenschaften sind:
+        Rechtecke in <application>Dia</application> kÃ¶nnen jede vom Nutzer
+        gewÃ¼nschte GrÃ¶sse annehmen. Weitere Rechteckeigenschaften sind:
         <itemizedlist>
           <listitem>
             <para>
@@ -57,7 +57,7 @@
           <listitem>
             <para>
               "Hintergrund zeichnen" - Entscheidet, ob das Innere des Rechteckes
-              leer bleibt oder mit der Hintergrundfarbe gefüllt wird.
+              leer bleibt oder mit der Hintergrundfarbe gefÃ¼llt wird.
             </para>
           </listitem>
         </itemizedlist>
@@ -81,25 +81,25 @@
     <sect2 id="beziergon">
       <title>Beziergon</title>
       <para>
-        Das Beziergon ähnelt dem Polygon. Allerdings bestehen seine Kanten nicht
+        Das Beziergon Ã¤hnelt dem Polygon. Allerdings bestehen seine Kanten nicht
         aus geraden Linien, sondern aus Kurven (Mit den Kurven des Beziergons
-        lassen sich natürlich auch gerade Begrenzungslinien erstellen).
+        lassen sich natÃ¼rlich auch gerade Begrenzungslinien erstellen).
       </para>
     </sect2>
     <sect2 id="line">
       <title>Linie</title> 
       <para>
         Einie Linie ist eine einfache gerade Linie. Im Gegensatz zu den im 
-        Folgenden erläuterten
+        Folgenden erlÃ¤uterten
         Linien bietet sie ausser dem Start- und Endpunkt keine weiteren 
-        Handgriffe, um ihre Form zu ändern. 
+        Handgriffe, um ihre Form zu Ã¤ndern. 
       </para>
     </sect2>
     <sect2 id="arc">
       <title>Bogen</title>
       <para>
-        Ein Bogen ist eine gekrümmte Linie. Ziehen sie den orangenen Handgriff in
-        der Mitte der Linie, um die Krümmung des Bogens zu bestimmen.
+        Ein Bogen ist eine gekrÃ¼mmte Linie. Ziehen sie den orangenen Handgriff in
+        der Mitte der Linie, um die KrÃ¼mmung des Bogens zu bestimmen.
       </para>
     </sect2>
     <sect2 id="zigzagline">
@@ -113,25 +113,25 @@
       <para>
         Die Autoroute-Eigenschaft kann eingeschaltet werden, um Start- und 
         Endpunkt automatisch mit der minimalen Anzahl an Ecken zu verbinden.
-        Falls Sie die den Verlauf der Zickzacklinie manuell über die
-        orangenen Handgriffe ändern, wird die Autoroute-Eigenschaft automatisch
-        auf "Nein" gesetzt. Die Autoroute-Eigenschaft kann über den 
-        Eigenschaften-Dialog des Objektes und sein Kontextmenü (rechter Mausklick
-        auf die Zickzacklinie) geändert werden.
+        Falls Sie die den Verlauf der Zickzacklinie manuell Ã¼ber die
+        orangenen Handgriffe Ã¤ndern, wird die Autoroute-Eigenschaft automatisch
+        auf "Nein" gesetzt. Die Autoroute-Eigenschaft kann Ã¼ber den 
+        Eigenschaften-Dialog des Objektes und sein KontextmenÃ¼ (rechter Mausklick
+        auf die Zickzacklinie) geÃ¤ndert werden.
       </para>
       <para>
-        Zickzacklinien erlauben es, Segmente hinzufügen oder zu löschen. Das ist
-        nützlich, wenn die Linie um mehrere Ecken geführt wird (zum Beispiel, um
-        andere Objekte zu umrunden) oder um den Pfeil in die gewünschte Richtung
-        zeigen zu lassen. Um ein Segment hinzuzufügen oder zu entfernen, wählen
+        Zickzacklinien erlauben es, Segmente hinzufÃ¼gen oder zu lÃ¶schen. Das ist
+        nÃ¼tzlich, wenn die Linie um mehrere Ecken gefÃ¼hrt wird (zum Beispiel, um
+        andere Objekte zu umrunden) oder um den Pfeil in die gewÃ¼nschte Richtung
+        zeigen zu lassen. Um ein Segment hinzuzufÃ¼gen oder zu entfernen, wÃ¤hlen
         Sie eine Zickzacklinie aus und klicken dann mit der rechten Maustaste
-        auf die Linie. Im Kontextmenü wählen Sie "Segment hinzufügen" oder 
-        "Segment löschen".
+        auf die Linie. Im KontextmenÃ¼ wÃ¤hlen Sie "Segment hinzufÃ¼gen" oder 
+        "Segment lÃ¶schen".
       </para>
       <figure>
-        <title>Kontextmenü Zickzacklinie</title>
+        <title>KontextmenÃ¼ Zickzacklinie</title>
         <screenshot>
-          <screeninfo>Kontextmenü Zickzacklinie</screeninfo>
+          <screeninfo>KontextmenÃ¼ Zickzacklinie</screeninfo>
           <graphic format="PNG" fileref="graphics/zickzacklinie-kontextmenue" srccredit="Steffen Macke" />
         </screenshot>
       </figure>   
@@ -140,17 +140,17 @@
       <title>Linienzug</title>
       <para>
         Ein Linienzug hat mehrere Segmente wie eine Zickzacklinie, die 
-        einzelnen Abschnitte können aber beliebige Winkel zueinander einnehmen.
-        Wie bei der Zickzacklinie können Sie weitere Segmente durch einen
-        Rechtsklick auf einen ausgewählte Linienzug und die Auswahl von
-        "Segment hinzufügen". Wie die Zickzacklinie weist der Linienzug einen
+        einzelnen Abschnitte kÃ¶nnen aber beliebige Winkel zueinander einnehmen.
+        Wie bei der Zickzacklinie kÃ¶nnen Sie weitere Segmente durch einen
+        Rechtsklick auf einen ausgewÃ¤hlte Linienzug und die Auswahl von
+        "Segment hinzufÃ¼gen". Wie die Zickzacklinie weist der Linienzug einen
         Eckenradius zwischen 0 und 10 auf, wobei 0 zu scharfen Ecken und 10 zu
-        maximal abgerundeten Ecken führt.  
+        maximal abgerundeten Ecken fÃ¼hrt.  
       </para>
       <figure>
-        <title>Kontextmenü Linienzug</title>
+        <title>KontextmenÃ¼ Linienzug</title>
         <screenshot>
-          <screeninfo>Kontextmenü Linienzug</screeninfo>
+          <screeninfo>KontextmenÃ¼ Linienzug</screeninfo>
           <graphic format="PNG" fileref="graphics/linienzug-kontextmenue" srccredit="Steffen Macke" />
         </screenshot>
       </figure>   
@@ -159,32 +159,32 @@
       <title>Bezierlinie</title>
       <para>
         Eine Bezierlinie ist eine Linie mit Kurven. Die Form der Bezierlinie
-        wird durch Klicken und Ziehen der grünen und orangenen Hangriffe
-        bearbeitet. Die grünen Handgriffe liegen immer auf der Linie selbst. Mit
-        den grünen Handgriffen lassen sich Winkel und Kurvenradien bestimmen.
-        Durch das über den Rechtsklick auf eine ausgewählte Bezierlinie
-        zugängliche Kontextmenü lassen sich weitere Segmente hinzufügen. Bei
-        Klick auf einen der grünen Handgriffe lässt sich eine der drei folgenden
-        Konfigurationsmöglichkeiten auswählen.
+        wird durch Klicken und Ziehen der grÃ¼nen und orangenen Hangriffe
+        bearbeitet. Die grÃ¼nen Handgriffe liegen immer auf der Linie selbst. Mit
+        den grÃ¼nen Handgriffen lassen sich Winkel und Kurvenradien bestimmen.
+        Durch das Ã¼ber den Rechtsklick auf eine ausgewÃ¤hlte Bezierlinie
+        zugÃ¤ngliche KontextmenÃ¼ lassen sich weitere Segmente hinzufÃ¼gen. Bei
+        Klick auf einen der grÃ¼nen Handgriffe lÃ¤sst sich eine der drei folgenden
+        KonfigurationsmÃ¶glichkeiten auswÃ¤hlen.
       </para>
       <itemizedlist>
         <listitem><para>
-            Symmetriekontrolle führt zu symmetrischer Anordnung der beiden 
-            orangenen Handgriffe um den gewählten grünen Linienpunkt.
+            Symmetriekontrolle fÃ¼hrt zu symmetrischer Anordnung der beiden 
+            orangenen Handgriffe um den gewÃ¤hlten grÃ¼nen Linienpunkt.
           </para></listitem>
         <listitem><para>
-        	Glättekontrolle erlaubt es, die beiden orangenen Handgriffe 
-        	unterschiedlich weit entfernt vom grünen Linienpunkt zu positionieren.
-        	Die Winkel der Kontrolllinien werden aber symmetrisch geführt.
+        	GlÃ¤ttekontrolle erlaubt es, die beiden orangenen Handgriffe 
+        	unterschiedlich weit entfernt vom grÃ¼nen Linienpunkt zu positionieren.
+        	Die Winkel der Kontrolllinien werden aber symmetrisch gefÃ¼hrt.
           </para></listitem>
         <listitem><para>
         	Scheitelpunktkontrolle erlaubt es die orangenen Handgriffe
-        	unabhängig von einander zu positionieren.
+        	unabhÃ¤ngig von einander zu positionieren.
           </para></listitem></itemizedlist>
       <figure>
-        <title>Kontextmenü Bezierlinie</title>
+        <title>KontextmenÃ¼ Bezierlinie</title>
         <screenshot>
-          <screeninfo>Kontextmenü Bezierlinie</screeninfo>
+          <screeninfo>KontextmenÃ¼ Bezierlinie</screeninfo>
           <graphic format="PNG" fileref="graphics/bezierlinie-kontextmenue" srccredit="Steffen Macke" />
         </screenshot>
       </figure>  
@@ -193,7 +193,7 @@
       <title>Linieneigenschaften</title>
       <para>
         Alle Linien besitzen die folgenden Eigenschaften: Breite, Farbe, 
-        Linienstil und Pfeile. Diese Eigenschaften können über den folgenden
+        Linienstil und Pfeile. Diese Eigenschaften kÃ¶nnen Ã¼ber den folgenden
         Dialog bearbeitet werden.
       </para>
       <figure>
@@ -207,7 +207,7 @@
         <title>Linienbreite</title>
         <para>
           Die Linienbreite wird in Zentimetern gemessen und kann durch direkte
-          Eingabe oder das Klicken der Vergrößern/Verkleinern-Knöpfe.
+          Eingabe oder das Klicken der VergrÃ¶ÃŸern/Verkleinern-KnÃ¶pfe.
         </para>
       </sect3>
       <sect3 id="line-colors">
@@ -220,8 +220,8 @@
           </screenshot>
         </figure>
         <para>
-          Linienfarben werden über die Linienfarbenauswahlliste oder die Auwahl
-          des Punktes "Weitere Farben..." (dieser öffnet den Farbauswahldialog)
+          Linienfarben werden Ã¼ber die Linienfarbenauswahlliste oder die Auwahl
+          des Punktes "Weitere Farben..." (dieser Ã¶ffnet den Farbauswahldialog)
           bestimmt.
            
           Unter <link linkend="colors">Farben</link> finden Sie weitere Informationen
@@ -240,7 +240,7 @@
         <para>
           Die Art der Linie (durchgezogen, gepunktet, usw.) kann durch 
           Auswahl einer der gezeigten 5 Optionen bestimmt werden. Falls Sie eine
-          gestrichelte Linien wählen, können Sie auch eine Strichlänge in 
+          gestrichelte Linien wÃ¤hlen, kÃ¶nnen Sie auch eine StrichlÃ¤nge in 
           Zentimetern angeben.s
         </para>
       </sect3>
@@ -255,8 +255,8 @@
           </screenshot>
         </figure>
         <para>
-          Die Start- und Endpfeile können über die Auswahlliste im Dialog
-          gewählt werden. Falls Sie keinen Pfeil wünschen, wählen Sie das
+          Die Start- und Endpfeile kÃ¶nnen Ã¼ber die Auswahlliste im Dialog
+          gewÃ¤hlt werden. Falls Sie keinen Pfeil wÃ¼nschen, wÃ¤hlen Sie das
           einfache Linienende am Beginn der Liste.
         </para>
       </sect3>
@@ -272,17 +272,17 @@
       </figure>  
       <para>
         Ein Diagramm kann neben Objekten auch Bilder enthalten. Um ein Bild zu
-        einem Diagramm hinzuzufügen, klicken Sie das Bildsymbol und
-        anschliessend auf die Zeichenfläche. Es wird zunächst der Platzhalter
-        "Broken Image" eingefügt. Durch einen Doppelklick auf diesen Platzhalter
-        öffnen Sie den Eigenschaftendialog des Bildes. Dort können Sie durch
-        Klick auf den Knopf "Auswählen" die gewünschte Bilddatei bestimmen.
+        einem Diagramm hinzuzufÃ¼gen, klicken Sie das Bildsymbol und
+        anschliessend auf die ZeichenflÃ¤che. Es wird zunÃ¤chst der Platzhalter
+        "Broken Image" eingefÃ¼gt. Durch einen Doppelklick auf diesen Platzhalter
+        Ã¶ffnen Sie den Eigenschaftendialog des Bildes. Dort kÃ¶nnen Sie durch
+        Klick auf den Knopf "AuswÃ¤hlen" die gewÃ¼nschte Bilddatei bestimmen.
         Nach einem Klick auf "OK" wird das Bild im Diagramm angezeigt.
-        Sie können die Bildgröße über die grünen Objekthandgriffe ändern.
+        Sie kÃ¶nnen die BildgrÃ¶ÃŸe Ã¼ber die grÃ¼nen Objekthandgriffe Ã¤ndern.
       </para>
-      <para>Die folgenden Bildformate werden in der Regel für Bilder
+      <para>Die folgenden Bildformate werden in der Regel fÃ¼r Bilder
         in
-        <application>Dia</application> unterstützt:
+        <application>Dia</application> unterstÃ¼tzt:
         <itemizedlist>
           <listitem><simpara>BMP</simpara></listitem>
           <listitem><simpara>JPEG</simpara></listitem>
@@ -290,16 +290,16 @@
           <listitem><simpara>SVG</simpara></listitem>
           <listitem><simpara>XPM</simpara></listitem>
         </itemizedlist>
-        Die genaue Liste ist abhängig von der Systemkonfiguration (den
-        von der Gdk-Pixbuf-Bibliothek unterstützen Formaten).
+        Die genaue Liste ist abhÃ¤ngig von der Systemkonfiguration (den
+        von der Gdk-Pixbuf-Bibliothek unterstÃ¼tzen Formaten).
       </para>
     </sect2>
     <sect2 id="outline">
       <title>Kontur</title>
       <para>
-        Rotation von Texten ist eine der meistgefragten Fähigkeiten von Dia.
-        Durch das Kontur-Objekte steht diese Funktionalität zur Verfügung.
-        Der Rotationswikel lässt sich über den Eigenschaftendialog bestimmen.
+        Rotation von Texten ist eine der meistgefragten FÃ¤higkeiten von Dia.
+        Durch das Kontur-Objekte steht diese FunktionalitÃ¤t zur VerfÃ¼gung.
+        Der Rotationswikel lÃ¤sst sich Ã¼ber den Eigenschaftendialog bestimmen.
       </para>
     </sect2>
   </sect1>
