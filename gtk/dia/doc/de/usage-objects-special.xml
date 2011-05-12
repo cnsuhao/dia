@@ -4,26 +4,26 @@
     <title>Spezialisierte Objekte</title>
     <para>
       Dias spezialisierte Objekte sind zur Darstellung konkreter Symboliken
-      entworfen worden. Die spezialisierten Objekte ind sind "ObjektbÃ¶gen" 
+      entworfen worden. Die spezialisierten Objekte ind sind "Objektbögen" 
       genannte Kategorien eingeteilt. Der mittlere Abschnitt des Werkzeugkastens
       erlaubt die Auswahl eines Objektbogens mit spezialisierten Objekten.
-      WÃ¤hlen Sie einen Objektbogen, so wird dieser im Werkzeugkasten angezeigt
-      und Sie kÃ¶nnen seine Objekte wie die Standardobjekte in ein Diagramm
-      einfÃ¼gen.  
-      <application>Dia</application> unterstÃ¼tzt zahlreiche vordefinierte
+      Wählen Sie einen Objektbogen, so wird dieser im Werkzeugkasten angezeigt
+      und Sie können seine Objekte wie die Standardobjekte in ein Diagramm
+      einfügen.  
+      <application>Dia</application> unterstützt zahlreiche vordefinierte
       Objektkategorien.
     </para>
     <para>
-      Die vordefinierten ObjektbÃ¶gen gruppieren verwandte Objekte, so dass Sie
+      Die vordefinierten Objektbögen gruppieren verwandte Objekte, so dass Sie
       vermutlich die Objekte, die Sie gemeinsam nutzen wollen in einem
-      Objektbogen vereint finden. Es ist allerdings auch einfach mÃ¶glich, eine
-      ObjektbÃ¶gen zu erstellen oder die vordefinierten ObjektbÃ¶gen zu verÃ¤ndern.
+      Objektbogen vereint finden. Es ist allerdings auch einfach möglich, eine
+      Objektbögen zu erstellen oder die vordefinierten Objektbögen zu verändern.
       Unter
-      <link linkend="sheets-objects">ObjektbÃ¤gen und Objekte organisieren</link>
+      <link linkend="sheets-objects">Objektbägen und Objekte organisieren</link>
       finden Sie weitere Informationen dazu.
     </para>
     <para>
-      Es ist ohne Programmierkenntnisse mÃ¶glich, eigene Objekte zu erstellen.
+      Es ist ohne Programmierkenntnisse möglich, eigene Objekte zu erstellen.
       Unter <link linkend="custom-shapes-chapter"> 
         Benutzerdefinierte Symbole</link> finden Sie weitere Informationen dazu.
     </para>   
@@ -47,8 +47,8 @@
           Gemischte einfache geometrische Figuren. Die Auswahl der Symbole soll
           den Nutzern einen Satz an Grundfiguren auf einfache und komfortable 
           Art bereitstellen. Somit muss der Nutzer keine Zeit zur Erstellung
-          dieser grundlegenden Symbole aufwenden. Der Objektbogen enthÃ¤lt
-          Symbole mit festen SeitenverhÃ¤ltnissen wie Kreise, Quadrate und
+          dieser grundlegenden Symbole aufwenden. Der Objektbogen enthält
+          Symbole mit festen Seitenverhältnissen wie Kreise, Quadrate und
           verschiedene Arten von Dreiecken und Kreuzen. Diese Objekte erlauben
           keine Texteingabe in den Objekten.
         </para>
@@ -93,7 +93,7 @@
         <para>
           Der Objekbogen "Cisco - Computer" beinhaltet zahlreiche Objekte zur
   		   aus der Computertechnik. Unterschiedliche Rechner wie Server,
-  		   Arbeitsplatzrechner und mobile GerÃ¤te lassen sich symbolisch darstellen.
+  		   Arbeitsplatzrechner und mobile Geräte lassen sich symbolisch darstellen.
         </para>
 
       </sect3>
@@ -110,7 +110,7 @@
 
         <para>
           Der Objektbogen "Cisco - Versch." umfasst eine bunte Auswahl von
-          Symbolen, wie GebÃ¤ude, Personen, Satelliten, Antennen.  
+          Symbolen, wie Gebäude, Personen, Satelliten, Antennen.  
         </para>
 
       </sect3>
@@ -127,7 +127,7 @@
 
         <para>
           Der Objektbogen "Cisco - Netzwerk" umfasst eine breite Palette von
-          NetzwerkgerÃ¤ten der Firma CISCO.  
+          Netzwerkgeräten der Firma CISCO.  
         </para>
 
       </sect3>
@@ -144,7 +144,7 @@
 
         <para>
           Der Objektbogen "Cisco - Switch" umfasst eine Auswahl von 
-          Switch-NetzwerkgerÃ¤ten der Firma CISCO.  
+          Switch-Netzwerkgeräten der Firma CISCO.  
         </para>
 
       </sect3>
@@ -196,7 +196,7 @@
 
         <para>
           Erlaubt die Erstellung von ER-Diagrammen (Entity Relationship).
-          EntitÃ¤ten und Beziehungen von relationalen Datenbankmodellen lassen
+          Entitäten und Beziehungen von relationalen Datenbankmodellen lassen
           sich in derartigen Diagrammen beschreiben.
         </para>
 
@@ -213,9 +213,9 @@
         </figure>
         <para>
           Ein Objektbogen mit Symbolen, die oft in Flussdiagrammen genutzt
-          werden. Flussdiagramme werden hÃ¤ufig in der elektronischen
-          Datenverarbeitung, Marketing oder der Ã–konomie genutzt. Sie
-          sind fÃ¼r halblineare Darstellungen jeglicher Art, die eine gewisse
+          werden. Flussdiagramme werden häufig in der elektronischen
+          Datenverarbeitung, Marketing oder der Ökonomie genutzt. Sie
+          sind für halblineare Darstellungen jeglicher Art, die eine gewisse
           Planung erfordern, hilfreich. Die Mehrzahl der Objekte im
           Objektbogen "Flussdiagramm" erlaubt die Texteingabe.
         </para>
@@ -226,8 +226,8 @@
 
         <para>
           Erlaubt die Erstellung von Funktionsstrukturdiagrammen. Bitte beachten
-          Sie, dass die Objekte ein KontextmenÃ¼ aufweisen, dass Ã¼ber einen
-          rechten Mausklick auf das Objekt im Diagramm zugÃ¤nglich ist.        
+          Sie, dass die Objekte ein Kontextmenü aufweisen, dass über einen
+          rechten Mausklick auf das Objekt im Diagramm zugänglich ist.        
         </para>
 
       </sect3>
@@ -240,8 +240,8 @@
           in der Prozessautomatisierung genutzt.
         </para>
         <para>
-          Das Diagramm zeigt Schritt, Aktion, Ãœbergang un die zum Ãœbergang
-          gehÃ¶renden Bedingungen.  
+          Das Diagramm zeigt Schritt, Aktion, Übergang un die zum Übergang
+          gehörenden Bedingungen.  
         </para>
 
       </sect3>
@@ -258,7 +258,7 @@
         <title>RE-Jackson</title>
 
         <para>
-          Das Jackson Software Design (JSD) ist eine Entwurfsmethode fÃ¼r
+          Das Jackson Software Design (JSD) ist eine Entwurfsmethode für
           Softwaresysteme.  
         </para>
 
@@ -358,8 +358,8 @@
         <para>
           Symbole zur Erstellung von SDL-Diagrammen (Specification and 
           Description Language). SDL-Diagramme werden genutzt, um das Verhalten
-          von interaktiven Systemen Ã¼ber die Zeit zu beschreiben.
-          SDL wird hÃ¤ufig in der Telekommunikation genutzt, kann aber auch
+          von interaktiven Systemen über die Zeit zu beschreiben.
+          SDL wird häufig in der Telekommunikation genutzt, kann aber auch
           zur generellen Beschreibung von Prozesssteuerungen und
           Echtzeitanwendungen genutzt werden.  
         </para>
@@ -385,11 +385,11 @@
           </screenshot>
         </figure>
         <para>
-          Unified Modeling Language (UML). UML ist eine hÃ¤ufig genutzte 
+          Unified Modeling Language (UML). UML ist eine häufig genutzte 
           Spezifikation zur visuellen Beschreibung in der objektorientierten
-          Programmierung - insbesondere fÃ¼r grÃ¶ÃŸere Projekte. 
+          Programmierung - insbesondere für größere Projekte. 
           Einige der UML-Objekte, wie beispielsweise die UML-Klasse im
-          folgenden Bild, weisen zahlreiche Eigenschaften auf, die sich Ã¼ber
+          folgenden Bild, weisen zahlreiche Eigenschaften auf, die sich über
           den Eigenschaftendialog bearbeiten lassen. 
         </para>
         <para>
@@ -408,29 +408,29 @@
 
     </sect2>
     <sect2 id="sheets-objects">
-      <title>Objekte und ObjektbÃ¶gen organisieren</title>
+      <title>Objekte und Objektbögen organisieren</title>
       <para>
-        Die Gruppierung der Objekte in ObjektbÃ¶gen kann angepasst werden.
-        Falls Sie beispielsweise Ã¼berwiegend Objekte aus einem Objektbogen
-        nutzen, aber einzelne Objekte aus weiteren BÃ¶gen benutzen, kÃ¶nnen
+        Die Gruppierung der Objekte in Objektbögen kann angepasst werden.
+        Falls Sie beispielsweise überwiegend Objekte aus einem Objektbogen
+        nutzen, aber einzelne Objekte aus weiteren Bögen benutzen, können
         Sie einen kombinierten Objektbogen erstellen, der alle genutzten
-        Objekte enthÃ¤lt.
+        Objekte enthält.
         Das Kopieren der Objekte von einem Objektbogen in einen anderen wird
-        im Folgenden erlÃ¤utert:
+        im Folgenden erläutert:
       </para>
       <orderedlist>
         <listitem>
           <para>
-            WÃ¤hlen Sie den MenÃ¼punkt 
+            Wählen Sie den Menüpunkt 
             <menuchoice><guimenu>Datei</guimenu>
-              <guimenuitem>ObjektbÃ¶gen und Objekte</guimenuitem></menuchoice>. 
+              <guimenuitem>Objektbögen und Objekte</guimenuitem></menuchoice>. 
               Dadurch wird der unten dargestellte Dialog angezeigt.
           </para>
           <para>
             <figure>
-              <title>ObjektbÃ¶gen und Objekte</title>
+              <title>Objektbögen und Objekte</title>
               <screenshot>
-                <screeninfo>ObjektbÃ¶gen und Objekte</screeninfo>
+                <screeninfo>Objektbögen und Objekte</screeninfo>
                 <graphic format="PNG" fileref="graphics/objektboegen-objekte" srccredit="Steffen Macke" />
               </screenshot>
             </figure>
@@ -438,30 +438,30 @@
         </listitem>
         <listitem>
           <para>
-            Mit der Auswahlliste auf der linken Seite wÃ¤hlen Sie den Objektbogen,
+            Mit der Auswahlliste auf der linken Seite wählen Sie den Objektbogen,
             aus dem heraus Sie kopieren wollen. Mit der rechten Auswahlliste
-            wÃ¤hlen Sie den Objektbogen, in den hinein Sie kopieren wollen.
+            wählen Sie den Objektbogen, in den hinein Sie kopieren wollen.
           </para>
         </listitem>
         <listitem>
           <para>
-            Klicken Sie zunÃ¤chst auf das Objekt, das Sie kopieren mÃ¶chten und
+            Klicken Sie zunächst auf das Objekt, das Sie kopieren möchten und
             anschliessend auf den Kopieren-Knopf.        
           </para>
         </listitem>
         <listitem>
           <para>
-            Wiederholen Sie die oben genannten Schritte fÃ¼r alle Objekte, die
-            Sie kopieren mÃ¶chten. Sobald Sie fertig sind, klicken Sie auf
-            "Anwenden", um Ihre Ã„nderungen zu speichern. 
+            Wiederholen Sie die oben genannten Schritte für alle Objekte, die
+            Sie kopieren möchten. Sobald Sie fertig sind, klicken Sie auf
+            "Anwenden", um Ihre Änderungen zu speichern. 
           </para>
         </listitem>
       </orderedlist>
       <para>
         Die kopierten Objekte werden von jetzt an im rechten Objektbogen
-        erscheinen. Sie kÃ¶nnen auch Objekte aus einem Objektbogen entfernen
-        oder in andere BÃ¶gen verschieben. Ãœber die "Hoch"- und "Runter"-KnÃ¶pfe
-        lÃ¤sst sich die Reihenfolge der Objekte in einem Objektbogen anpassen.
+        erscheinen. Sie können auch Objekte aus einem Objektbogen entfernen
+        oder in andere Bögen verschieben. Über die "Hoch"- und "Runter"-Knöpfe
+        lässt sich die Reihenfolge der Objekte in einem Objektbogen anpassen.
       </para>
     </sect2>
   </sect1>

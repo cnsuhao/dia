@@ -5,14 +5,14 @@
     komplette Handbuch zu lesen.
   </para>
   <sect1 id="what-can-you-do">
-    <title>Was kÃ¶nnen Sie tun?</title>
+    <title>Was können Sie tun?</title>
     <para>
       <application>Dia</application> ist eine Zeichenanwendung, die es erlaubt,
       eine Vielzahl an Diagrammen zu erstellen. <application>Dia</application> 
       ist einfach zu erlernen und dabei flexibel genug, um erfahrenen Anwendern
-      die Erzeugung hochgradig angepasster Diagramme zu ermÃ¶glichen. Im folgenden
+      die Erzeugung hochgradig angepasster Diagramme zu ermöglichen. Im folgenden
       sind zwei einfache Diagramme dargestellt, die schnell mit 
-      <application>Dia</application> gezeichnet werden kÃ¶nnen.
+      <application>Dia</application> gezeichnet werden können.
       <figure>
         <title>Netzwerk-Beispieldiagramm</title>
         <screenshot>
@@ -26,38 +26,38 @@
   </sect1>
   <sect1 id="starting-dia">  <title>Dia starten</title>
     <para>
-      Sie kÃ¶nnen Dia aus dem HauptmenÃ¼ (StartmenÃ¼) starten, indem Sie auf das
-      Dia-Symbol klicken. Alternativ kÃ¶nnen Sie auf ein im Dia-Format vorliegendes
+      Sie können Dia aus dem Hauptmenü (Startmenü) starten, indem Sie auf das
+      Dia-Symbol klicken. Alternativ können Sie auf ein im Dia-Format vorliegendes
       Diagramm klicken, oder <command>dia</command> in der Kommandozeile eingeben.
     </para>
   </sect1>
   <sect1 id="creating-canvas">
-    <title>ZeichenflÃ¤che erzeugen</title>
+    <title>Zeichenfläche erzeugen</title>
     <para>
-      Alle Diagramme werden auf Ihrer eigenen <emphasis>ZeichenflÃ¤che</emphasis>
+      Alle Diagramme werden auf Ihrer eigenen <emphasis>Zeichenfläche</emphasis>
       gezeichnet. Wenn Sie Dia zum ersten Mal starten, wird automatisch eine
-      leere ZeichenflÃ¤che angelegt. Sie kÃ¶nnen jederzeit eine neue ZeichenflÃ¤che
-      erzeugen, indem Sie den MenÃ¼punkt
+      leere Zeichenfläche angelegt. Sie können jederzeit eine neue Zeichenfläche
+      erzeugen, indem Sie den Menüpunkt
       <menuchoice>
         <guimenu>Datei</guimenu>
         <guimenuitem>Neues Diagramm</guimenuitem>
       </menuchoice>
       aufrufen.
-      Die ZeichenflÃ¤che kann in verschiedener Hinischt angepasst werden,
-      beispielsweise durch eine Ã„nderung der Hintergrundfarbe oder mit
+      Die Zeichenfläche kann in verschiedener Hinischt angepasst werden,
+      beispielsweise durch eine Änderung der Hintergrundfarbe oder mit
       Gitternetzlinien. Das Kapitel <link linkend="canvas-chapter">Die 
-      ZeichenflÃ¤che</link> enthÃ¤lt weitere Informationen zur Anpassung der 
-      ZeichenflÃ¤che.
+      Zeichenfläche</link> enthält weitere Informationen zur Anpassung der 
+      Zeichenfläche.
     </para>
     <figure>
-      <title>Leere ZeichenflÃ¤che</title>
+      <title>Leere Zeichenfläche</title>
       <screenshot>
-        <screeninfo>Leere ZeichenflÃ¤che
+        <screeninfo>Leere Zeichenfläche
         </screeninfo>
         <graphic format="PNG" fileref="graphics/dia-start" srccredit="Steffen Macke" />
       </screenshot>
       <blockquote>
-        <simpara>Dia mit leerer ZeichenflÃ¤che und Werkzeugkasten links.</simpara>
+        <simpara>Dia mit leerer Zeichenfläche und Werkzeugkasten links.</simpara>
       </blockquote>
     </figure>
   </sect1>
@@ -65,71 +65,71 @@
     <title>Ein Diagramm erstellen</title>
     <para>
       Ein Diagramm besteht aus Objekten. Objekte sind Symbole oder Linien in
-      unterschiedlichen Formen und Farben. Objekte kÃ¶nnen einfache 
+      unterschiedlichen Formen und Farben. Objekte können einfache 
       Linienzeichnungen, Texte oder Farbbilder sein. Einige Objekte erlauben
       die Texteingabe und -darstellung im Objekt.
     </para>
     <para>
-      Diagramme mit Dia zu erzeugen, ist einfach. Der Werkzeugkasten enthÃ¤lt
+      Diagramme mit Dia zu erzeugen, ist einfach. Der Werkzeugkasten enthält
       eine Palette von Objekten, unter anderem einfache Formen, Linien und
-      spezialisierte Objekte. Um ein Objekt zur ZeichenflÃ¤che hinzuzufÃ¼gen,
-      klicken Sie zunÃ¤chst auf das gewÃ¼nschte Objekt und anschliessend auf den
-      Punkt in der ZeichenflÃ¤che, an dem das Objekt eingefÃ¼gt werden soll.
-      Nach dem Klick erscheint das Objekt auf der ZeichenflÃ¤che. Im Kapitel 
+      spezialisierte Objekte. Um ein Objekt zur Zeichenfläche hinzuzufügen,
+      klicken Sie zunächst auf das gewünschte Objekt und anschliessend auf den
+      Punkt in der Zeichenfläche, an dem das Objekt eingefügt werden soll.
+      Nach dem Klick erscheint das Objekt auf der Zeichenfläche. Im Kapitel 
       <link linkend="adding-objects"> 
-        Objekte hinzufÃ¼gen </link> finden Sie weitere Informationen zu diesem
+        Objekte hinzufügen </link> finden Sie weitere Informationen zu diesem
         Thema.
     </para>
     <para>
-      Auf der ZeichenflÃ¤che kÃ¶nnen Objekte durch klicken und ziehen mit der Maus
-      bewegt werden. Durch klicken und ziehen der grÃ¼nen und roten "TODO_handles"
-      kann die ObjektgrÃ¶ÃŸe verÃ¤ndert werden. In den Kapitel
+      Auf der Zeichenfläche können Objekte durch klicken und ziehen mit der Maus
+      bewegt werden. Durch klicken und ziehen der grünen und roten "TODO_handles"
+      kann die Objektgröße verändert werden. In den Kapitel
        <link linkend="moving-objects"> Objekte bewegen </link> und 
-      <link linkend="resizing-objects"> ObjektgrÃ¶ÃŸen verÃ¤ndern </link> finden
-      Sie weiterfÃ¼hrende Informationen.
+      <link linkend="resizing-objects"> Objektgrößen verändern </link> finden
+      Sie weiterführende Informationen.
     </para>
     <para>
-      Objekte kÃ¶nnen durch Linien verbunden werden. Ziehen Sie einfach ein
+      Objekte können durch Linien verbunden werden. Ziehen Sie einfach ein
       Linienende auf einen Verbindungspunkt eines Objektes (durch ein kleines 
-      blaues "x" markiert). Sobald Objekte verbunden sind, verlÃ¤ngert bzw.
-      verkÃ¼rzt sich die Verbindungslinie, wenn die Objekte bewegt werden. Somit
+      blaues "x" markiert). Sobald Objekte verbunden sind, verlängert bzw.
+      verkürzt sich die Verbindungslinie, wenn die Objekte bewegt werden. Somit
       bleiben die Objekte verbunden. Das Kapitel                                                                     
       See <link linkend="connecting-objects">
         Objekte mit Linien verbinden</link> beschreibt detailliert, wie sich
         Objekte verbinden lassen.  
     </para>
     <para>
-      Im Werkzeugkasten kÃ¶nnen Sie durch einen Doppelklick auf ein Objekt dessen
-      vorbelegte Eigenschaften ansehen und bearbeiten. Dadurch kÃ¶nnen Sie
-      verschiedene Voreinstellungen fÃ¼r das Objekt definieren. FÃ¼r Objekte, die
+      Im Werkzeugkasten können Sie durch einen Doppelklick auf ein Objekt dessen
+      vorbelegte Eigenschaften ansehen und bearbeiten. Dadurch können Sie
+      verschiedene Voreinstellungen für das Objekt definieren. Für Objekte, die
       Texte enthalten, lassen sich Textausrichtung und Schriftarten anpassen.
-      FÃ¼r Standardobjekte lassen sich Transparenz, Eckenrundung und das 
-      SeitenverhÃ¤ltnis anpassen. Im Kapitel 
+      Für Standardobjekte lassen sich Transparenz, Eckenrundung und das 
+      Seitenverhältnis anpassen. Im Kapitel 
       <link linkend="default-properties">Quellen der vorbelegten Eigenschaften
-      </link> kÃ¶nnen Sie weitere Details nachlesen. 
+      </link> können Sie weitere Details nachlesen. 
     </para>
     <para>
-      Dia enthÃ¤lt einen Standardsatz von allgemeinen Polygon- und Linienobjekten 
+      Dia enthält einen Standardsatz von allgemeinen Polygon- und Linienobjekten 
       (mehr dazu im Kapitel <link linkend="objects-chapter"> Objekte
-      </link>). Weiterhin enthÃ¤lt Dia eine Anzahl von vordefinierten Objekten
-      fÃ¼r unterschiedliche Zwecke - unter anderem Flussdiagramme, UML Diagramme,
-      NetzwerkplÃ¤ne und viele andere. Weitere Informationen dazu lesen Sie im
+      </link>). Weiterhin enthält Dia eine Anzahl von vordefinierten Objekten
+      für unterschiedliche Zwecke - unter anderem Flussdiagramme, UML Diagramme,
+      Netzwerkpläne und viele andere. Weitere Informationen dazu lesen Sie im
       Kapitel 
       <link linkend="special-object-categories"> Spezielle Objekte 
       </link>.
-      Sollte das gewÃ¼nschte Objekt in Ihrer Dia-Installation fehlen, finden Sie
+      Sollte das gewünschte Objekt in Ihrer Dia-Installation fehlen, finden Sie
       es eventuell im Internet in der <ulink type="http" 
       href="http://dia-installer.de/shapes_de.html">
-      Fundgrube fÃ¼r Dia-Objekte</ulink>. Die dort gelisteten Objekte lassen sich
-      Ã¼ber den grafischen Assistenten <application>diashapes</application>
+      Fundgrube für Dia-Objekte</ulink>. Die dort gelisteten Objekte lassen sich
+      über den grafischen Assistenten <application>diashapes</application>
       komfortabel installieren.
     </para>
     <para>
       Viele typische Aufgaben in Dia erfordern die Auswahl eines oder mehrerer
-      Objekte. Dia unterstÃ¼tzt mehrere Arten der schnellen Objektauswahl - im
+      Objekte. Dia unterstützt mehrere Arten der schnellen Objektauswahl - im
       Kapitel 
-      <link linkend="selecting-chapter"> Objekte auswÃ¤hlen 
-      </link> erfahren Sie nÃ¤heres.
+      <link linkend="selecting-chapter"> Objekte auswählen 
+      </link> erfahren Sie näheres.
     </para>
     <para>
       Dia kann auf unterschiedliche Weise an Ihre Anforderungen angepasst werden.
@@ -137,8 +137,8 @@
         Anpassung </link> zusammengefasst.
     </para>
     <para>
-      Folien ermÃ¶glichen es, ein Diagramm in mehrere Ã¼bereinanderliegende
-      Ebenen zu gliedern und diese Ebenen unabhÃ¤ngig voneinander zu bearbeiten.
+      Folien ermöglichen es, ein Diagramm in mehrere übereinanderliegende
+      Ebenen zu gliedern und diese Ebenen unabhängig voneinander zu bearbeiten.
       Wie das funktioniert, erfahren Sie im Kapitel <link linkend="layers-chapter"> 
       Folien verwalten
       </link> .
@@ -147,14 +147,14 @@
       Dia macht es Nutzern einfach, eigene (benutzerdefinierte) Objekte
       zu erstellen. Das Kapitel
      <link linkend="custom-shapes-chapter"> Benutzerdefinierte Objekte
-      </link> erklÃ¤rt, wie Sie die solche Objekte erstellen.
+      </link> erklärt, wie Sie die solche Objekte erstellen.
     </para>
   </sect1>
   <sect1 id="save-print-diagram">
     <title>Speichern und Drucken von Diagrammen</title>
     <para>
       Dia bietet die Standard-Funktionen zum speichern und drucken, zu finden
-      sind sie im Datei-MenÃ¼. Die Auswahl des MenÃ¼punktes
+      sind sie im Datei-Menü. Die Auswahl des Menüpunktes
       <menuchoice>
         <guimenu>
           Datei
@@ -162,14 +162,14 @@
         <guimenuitem>
           Seiteneinrichtung
         </guimenuitem></menuchoice>
-      erlaubt es PapiergrÃ¶ÃŸe, -ausrichtung und DruckrÃ¤nder zu wÃ¤hlen. Der
-      Seiteneinrichtungsdialog erlaubt es auch, zu wÃ¤hlen, ob ein Diagramm
-      massstÃ¤blich (Prozenteingabe) gedruckt werden soll oder ob es auf eine
-      feste grÃ¶ÃŸe (in Zentimetern) skaliert werden soll.
+      erlaubt es Papiergröße, -ausrichtung und Druckränder zu wählen. Der
+      Seiteneinrichtungsdialog erlaubt es auch, zu wählen, ob ein Diagramm
+      massstäblich (Prozenteingabe) gedruckt werden soll oder ob es auf eine
+      feste größe (in Zentimetern) skaliert werden soll.
     </para>
     <para>
-      Dia unterstÃ¼tzt eine Vielzahl von Formaten, die sich exzellent zur
-      VerÃ¶ffentlichung im Internet eignen.
+      Dia unterstützt eine Vielzahl von Formaten, die sich exzellent zur
+      Veröffentlichung im Internet eignen.
       Unter anderem:
       <itemizedlist>
         <listitem>
@@ -207,21 +207,21 @@
     <para>
       Im Kapitel <link linkend="loadsave-chapter"> Laden und Speichern von 
       Diagrammen 
-      </link> finden Sie weitere Informationen zu den von Dia unterstÃ¼tzten
+      </link> finden Sie weitere Informationen zu den von Dia unterstützten
       Dateiformaten.
     </para>
   </sect1>
   <sect1 id="quickstart-commandline">                                                     
-    <title>Dia in der Kommandozeile ausfÃ¼hren</title>
+    <title>Dia in der Kommandozeile ausführen</title>
     <para>
-      Dia kann von der Kommandozeile ausgefÃ¼hrt werden.
+      Dia kann von der Kommandozeile ausgeführt werden.
       Dadurch kann Dia in Stapelverarbeitungsdateien genutzt werden. Unter 
       <link linkend="commandline"> 
         Dia-Kommandozeile </link> finden Sie weitere Information zu diesem Thema.
     </para>
   </sect1>
   <sect1 id="who-appeal-too">                                                     
-    <title>Wem nÃ¼tzt Dia?</title>
+    <title>Wem nützt Dia?</title>
     <para>
       Dia kann von vielen Leuten in unterschiedlichen Branchen genutzt werden.
       <itemizedlist>
@@ -243,8 +243,8 @@
           <para>
             Ein Softwareentwickler kann verschiende Arten von   
             <ulink url="http://en.wikipedia.org/wiki/Unified_Modeling_Language">UML</ulink>-Diagramme
-            zeichnen und diese mit der FlexibilitÃ¤t eines universellen 
-            Zeichenprogrammes erweitern. Auch ProgrammablaufplÃ¤ne kÃ¶nnen mit Dia
+            zeichnen und diese mit der Flexibilität eines universellen 
+            Zeichenprogrammes erweitern. Auch Programmablaufpläne können mit Dia
             erzeugt werden.
           </para>
         </listitem>
@@ -267,14 +267,14 @@
 
         <listitem>
           <para>
-            Ein Netzwerkadministrator kann einen Ãœberblick des Firmennetzwerkes
+            Ein Netzwerkadministrator kann einen Überblick des Firmennetzwerkes
             entwerfen.
           </para>
         </listitem>                                                             
         <listitem>
           <para>
             Ein Elektroingenieur kann <application>Dia</application> nutzen, um
-            elektrische Schaltkreise zu erlÃ¤utern.
+            elektrische Schaltkreise zu erläutern.
           </para>
         </listitem>
         <listitem>
