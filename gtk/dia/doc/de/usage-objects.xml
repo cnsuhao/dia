@@ -683,11 +683,17 @@
           <title>Nach "Vertikal verteilen"</title>
           <screenshot>
             <screeninfo>Nach "Vertikal verteilen"</screeninfo>
-            <graphic format <graphic format="PNG" fileref="graphics/vor-vertikal-verteilen" srccredit="Steffen Macke" />
+            <graphic format="PNG" fileref="graphics/vor-vertikal-verteilen" srccredit="Steffen Macke" />
           </screenshot>
         </figure>   
         <figure>
           <title>Nach "Vertikal verteilen"</title>
           <screenshot>
             <screeninfo>Nach "Vertikal verteilen"</screeninfo>
-            <graphic format
+          </screenshot>
+          </figure>
+          </sect3>
+          </sect2>
+          </sect1>
+          </chapter>
+          
