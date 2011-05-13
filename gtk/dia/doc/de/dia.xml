@@ -75,17 +75,17 @@
   <legalnotice id="legal-notice">
   
    <para>
-	Es wird die Erlaubnis gewÃ¤hrt, dieses Dokument zu kopieren, zu
+	Es wird die Erlaubnis gewährt, dieses Dokument zu kopieren, zu
 	verteilen und/oder zu modifizieren, unter den Bestimmungen der GNU Free
-	Documentation License, Version 1.2 oder jeder spÃ¤teren Version,
-	verÃ¶ffentlicht von der Free Software Foundation; ohne unverÃ¤nderliche
+	Documentation License, Version 1.2 oder jeder späteren Version,
+	veröffentlicht von der Free Software Foundation; ohne unveränderliche
 	Abschnitte, ohne vordere Umschlagtexte und ohne hintere Umschlagtexte.
 	Eine Kopie der Lizenz wird im Abschnitt mit dem Titel "GNU Free
 	Documentation License" bereitgestellt.
    </para>
 
 	<para>
-	  CSS Stylesheets, die in diesem Dokument referenziert und die Grafiken,
+	  CSS Stylesheets, die in diesem Dokument referenziert werden und die Grafiken,
 	  die in diesen Stylesheets referenziert werden, unterliegen einer
 	  anderen Lizenz.
 	</para>
@@ -94,10 +94,16 @@
 
   <releaseinfo>
 
-   Dies ist Version 0.97.1 des Dia-Handbuches.
+   Dies ist Version 0.97.2 des Dia-Handbuches.
 
   </releaseinfo>
   <revhistory>
+  <revision>
+    <revnumber>0.97.2</revnumber>
+    <date>2011-05-13</date>
+    <authorinitials>sdteffen</authorinitials>
+    <revremark>Zweite, erweiterte deutsche Version des Dia-Handbuches</revremark>
+  </revision>
     <revision>
     <revnumber>0.97.1</revnumber>
     <date>2009-12-12</date>

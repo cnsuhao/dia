@@ -114,7 +114,7 @@
           sich in dem erzeugten Auswahlrechteck befinden. Das Auswahlrechteck
           wird temporär durch eine dünne gestrichelte Linie angedeutet - diese
           Linie wird nicht Bestandteil des Diagramms. Beachten Sie, dass nur die
-          Objekte ausgewählt werden, die sich <strong>komplett</strong>
+          Objekte ausgewählt werden, die sich komplett
           im Auswahlrechteck befinden. Objekte, die sich nur teilweise im
           Auswahlrechteck befinden, werden nicht ausgewählt. Die folgende
           Grafik verdeutlicht den Rechteckauswahlmechanismus an einem Beispiel.        
