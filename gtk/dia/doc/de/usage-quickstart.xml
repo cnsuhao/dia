@@ -133,21 +133,21 @@
     </para>
     <para>
       Dia kann auf unterschiedliche Weise an Ihre Anforderungen angepasst werden.
-      Details dazu sind im Kapitel <link linkend="usage-customization"> 
-        Anpassung </link> zusammengefasst.
+      <!--  todo Details dazu sind im Kapitel <link linkend="usage-customization"> 
+        Anpassung </link> zusammengefasst. -->
     </para>
     <para>
       Folien ermöglichen es, ein Diagramm in mehrere übereinanderliegende
       Ebenen zu gliedern und diese Ebenen unabhängig voneinander zu bearbeiten.
-      Wie das funktioniert, erfahren Sie im Kapitel <link linkend="layers-chapter"> 
+      <!-- todo Wie das funktioniert, erfahren Sie im Kapitel <link linkend="layers-chapter"> 
       Folien verwalten
-      </link> .
+      </link> . -->
     </para>
     <para>
       Dia macht es Nutzern einfach, eigene (benutzerdefinierte) Objekte
       zu erstellen. Das Kapitel
-     <link linkend="custom-shapes-chapter"> Benutzerdefinierte Objekte
-      </link> erklärt, wie Sie die solche Objekte erstellen.
+     <!-- todo <link linkend="custom-shapes-chapter"> Benutzerdefinierte Objekte
+      </link> erklärt, wie Sie die solche Objekte erstellen. -->
     </para>
   </sect1>
   <sect1 id="save-print-diagram">
@@ -215,9 +215,10 @@
     <title>Dia in der Kommandozeile ausführen</title>
     <para>
       Dia kann von der Kommandozeile ausgeführt werden.
-      Dadurch kann Dia in Stapelverarbeitungsdateien genutzt werden. Unter 
+      Dadurch kann Dia in Stapelverarbeitungsdateien genutzt werden. 
+      <!--  todo Unter 
       <link linkend="commandline"> 
-        Dia-Kommandozeile </link> finden Sie weitere Information zu diesem Thema.
+        Dia-Kommandozeile </link> finden Sie weitere Information zu diesem Thema. -->
     </para>
   </sect1>
   <sect1 id="who-appeal-too">                                                     

@@ -24,8 +24,8 @@
     </para>
     <para>
       Es ist ohne Programmierkenntnisse möglich, eigene Objekte zu erstellen.
-      Unter <link linkend="custom-shapes-chapter"> 
-        Benutzerdefinierte Symbole</link> finden Sie weitere Informationen dazu.
+      <!--  todo Unter <link linkend="custom-shapes-chapter"> 
+        Benutzerdefinierte Symbole</link> finden Sie weitere Informationen dazu.-->
     </para>   
 
     <sect2 id="special-object-categories">

@@ -126,7 +126,7 @@
         <tip>
           <para>Sie können mehrere Regionen mit der Rechteckauswahl selektieren. Vorher ausgewählte Objekte werden ausgewählt bleiben, solange Sie die Auswahl nicht verwerfen (beispielsweise durch einen Doppelklick auf eine leere Region der Zeichenfläche oder durch einen Klick auf ein nicht gewähltes Objekt ohne die Shift-Taste) Wie oben erwähnt, können Sie jederzeit mit Shift+Klick einzelne Objekte an- oder abwählen.</para> </tip>
         <tip>
-          <para>Normalerweise führt die Auswahl von oben-links nach unten-rechts zum selben Ergebnis wie eine &quot;entgegengesetztes Ziehen&quot; - ausgehend von der Ecke unten-rechts zur Ecke rechts-oben. Allerdings können Sie eine Option in <application>Dia</application> aktivieren, die es erlaubt nur schneidende Objekte zu wählen, wenn Sie &quot;entgegengesetzt Ziehen&quot; Unter <link linkend="user-interface">Benutzerschnittstelle / entgegengesetztes Ziehen</link> finden Sie weitere Informationen.</para> </tip>  
+          <para>Normalerweise führt die Auswahl von oben-links nach unten-rechts zum selben Ergebnis wie ein &quot;entgegengesetztes Ziehen&quot; - ausgehend von der Ecke unten-rechts zur Ecke rechts-oben. Allerdings können Sie eine Option in <application>Dia</application> aktivieren, die es erlaubt nur schneidende Objekte zu wählen, wenn Sie &quot;entgegengesetzt Ziehen&quot;.</para></tip>  
 
 
       </sect3>
@@ -137,14 +137,14 @@
           <title>Menü &quot;Auswahl&quot;</title>
           <screenshot>
             <screeninfo>Menü &quot;Auswahl&quot;</screeninfo>
-            <graphic format="PNG" fileref="graphics/select-menu" srccredit="Mark Dexter"/>
+            <graphic format="PNG" fileref="graphics/menue-auswahl" srccredit="Steffen Macke"/>
           </screenshot>
         </figure>   
 
 
         <para>Sie können alle Objekte auf der Zeichenfläche durch die Auswahl des Menüpunktes <menuchoice><guimenu>Auswahl</guimenu> <guimenuitem>Alles</guimenuitem></menuchoice> oder mit Strg+A selektieren. Dadurch werden alle Objekte ausgewählt, egal ob sie momentan sichtbar sind oder nicht.</para>
         <note>
-          <para>Wie mit jeder anderen Auswahlmethode werden nur die Objekte der aktuellen Ebene gewählt - sofern Sie mit Ebenen arbeiten. Unter <link linkend="layers-chapter">Ebenen verwalten</link> finden Sie weitere Informationen zur Arbeit mit Ebenen.</para>
+          <para>Wie mit jeder anderen Auswahlmethode werden nur die Objekte der aktuellen Ebene gewählt - sofern Sie mit Ebenen arbeiten. <!-- todo Unter <link linkend="layers-chapter">Ebenen verwalten</link> finden Sie weitere Informationen zur Arbeit mit Ebenen. --></para>
         </note>
       </sect3>
 
@@ -188,7 +188,7 @@
         <para>Diese Option erlaubt es Ihnen alle Objekte auszuwählen, die vom gleichen Typ wie das momentan gewählte Objekt sind. Um diese Option zu nutzen, selektieren Sie ein oder mehrere Objekte und wählen <menuchoice><guimenu>Auswahl</guimenu> <guimenuitem>Gleicher Typ</guimenuitem></menuchoice> aus dem Menü. Alle Objekte, die vom gleichen Typ sind wie eines der gewählten Objekte, werden zur Auswahl hinzugefügt.</para>
         <para>Falls Sie beispielsweise alle Linienobjekte in Ihrem Diagramm auswählen wollen, selektieren Sie ein Linienobjekt und wählen dann <menuchoice><guimenu>Auswahl</guimenu> <guimenuitem>Gleicher Typ</guimenuitem></menuchoice> aus dem Menü, um alle anderen Linienobjekte auszuwählen.</para>
         <tip>
-          <para>Der Menüpunkt <menuchoice><guimenu>Auswahl</guimenu> <guimenuitem>Gleicher Typ</guimenuitem></menuchoice> kann mit dem Menüpunkt <menuchoice><guimenu>Objekte</guimenu> <guimenuitem>Gruppieren</guimenuitem></menuchoice> um schnell die Eigenschaften aller Objekte eines Typs in Ihrem Diagramm zu ändern Unter <link linkend="changing-group-properties">Eigenschaften einer Gruppe von Objekten ändern</link> finden Sie weitere Informationen zu diesem Thema.</para>
+          <para>Der Menüpunkt <menuchoice><guimenu>Auswahl</guimenu> <guimenuitem>Gleicher Typ</guimenuitem></menuchoice> kann mit dem Menüpunkt <menuchoice><guimenu>Objekte</guimenu> <guimenuitem>Gruppieren</guimenuitem></menuchoice> um schnell die Eigenschaften aller Objekte eines Typs in Ihrem Diagramm zu ändern. <!-- todo Unter <link linkend="changing-group-properties">Eigenschaften einer Gruppe von Objekten ändern</link> finden Sie weitere Informationen zu diesem Thema. --></para>
         </tip>
         <note>
           <para>Die Objekttypen müssen exakt übereinstimmen. Eine Linie und eine Zickzacklinie sind beispielsweise unterschiedliche Typen.</para></note>
